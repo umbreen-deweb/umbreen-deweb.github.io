@@ -22,3 +22,9 @@ aside {
 footer {
     clear: both;
 }
+p { 
+    font-family: serif}
+
+img {
+    padding:3px;
+}
