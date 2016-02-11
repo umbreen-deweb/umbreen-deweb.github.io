@@ -1,5 +1,5 @@
 main {
-    width:100%;
+    width:1020px;
     height:400px;
 }
 
@@ -12,10 +12,10 @@ main {
 
 .div2 {
     width:500px;
-    height:395px;
+    height:390px;
     float:left; 
     background-color:rgb(240, 240, 240);
-    padding:2px;
+    padding:3px;
      
 }
 
