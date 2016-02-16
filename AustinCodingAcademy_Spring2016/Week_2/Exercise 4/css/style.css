@@ -1,0 +1,58 @@
+/*ex 1 */
+p {
+    color:orange;
+    font-size:2rem;
+}
+
+ p span {
+    color:green;
+    text-decoration: line-through;   
+}
+/* ex 2 */
+em.highlight {
+    background-color: hotpink;
+}
+
+h4.highlight {
+    font-size: 3em;
+}
+
+strong.highlight {
+    color:blue;
+}
+
+.highlight {
+    text-decoration: underline;
+}
+
+/* ex */
+
+#overview h4 { 
+font-family: monospace;
+}
+
+h4#strategy {
+    font-stretch: extra-condensed;
+}
+
+#ex4 > section > aside > h4 {
+    color:purple;
+}
+
+/*ex 5 */
+
+#example > article > p {
+    font-size: 10px;
+}
+
+/* ex 6 * pseudo selector use a colon like li: bah blah. Then since there are 3 elements i can use nth thing to change the styling of each of those elments. If i replaced the li with p it would select all the 'p' in my code to change it to that style under nth()*/
+
+li:nth-child (2) {
+    color:aqua;
+    font-size:50px;
+}
+
+li:nth-child(3) {
+    color:cadetblue;
+    font-family: cursive;
+}
