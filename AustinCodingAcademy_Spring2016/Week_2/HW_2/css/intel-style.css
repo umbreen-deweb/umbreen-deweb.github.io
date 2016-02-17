@@ -4,7 +4,7 @@ body {
 }
 
 header, main, footer {
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
@@ -13,7 +13,7 @@ header {
     padding: 10px;
 }
 
-header #h1 {
+header#heading1 > h1 {
     font-weight: 100;
     font-size: 60px;
     color: #fff;
@@ -29,7 +29,7 @@ main > section > h2 {
     font-weight: 200;
 }
 
-main aside h3 {
+main section h3 {
     font-size: 24px;
     font-weight: 200;
 }
