@@ -16,6 +16,8 @@ img {
     padding: 1%;
 
 }
+/* to jump out of a root folder i need to use three dots like url('../img/nasa-background.jpg');
+OR if you are too deep into a folder then you do this url('../../../img blah blah'*/
 
 main {
     background-color: #e6e6e6;

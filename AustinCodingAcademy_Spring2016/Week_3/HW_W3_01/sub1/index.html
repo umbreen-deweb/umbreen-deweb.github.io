@@ -12,7 +12,15 @@
             .parent-container {
                 background-color: dodgerblue;
                 clear: both;
-                overflow:auto;
+            }
+                .parent-container:after {
+                clear: both;
+                content: ".";
+                display: block;
+                height: 0;
+                line-height: 0;
+                visibility: hidden;
+            }
             }
             
             hr { clear: both;}
