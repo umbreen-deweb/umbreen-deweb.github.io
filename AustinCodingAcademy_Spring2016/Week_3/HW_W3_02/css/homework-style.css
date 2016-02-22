@@ -1,0 +1,153 @@
+body {
+    width:auto;
+}
+
+header{
+   margin-left: 185px;
+    width:400px;
+    text-align: center;
+    font-family: sans-serif;
+    color: grey;
+    padding:15px;
+}
+
+#bigbox {
+    margin-left: 5px;
+    width:780px;
+    float:left;
+    height: 390px;
+    padding:5px;
+}
+
+article {
+    float:left;
+   padding: 2px;
+    
+}
+section {
+    width:370px;
+    float:right;
+    height: 350px;
+
+}
+div {
+    background-color: #f2f2f2;
+    margin: 6px;
+    padding:10px;
+    border-radius:3px;
+}
+
+.one {
+    width:350px;
+    height:323px;
+    padding:13px;
+}
+
+.two {
+    width: 330px;
+    height: 90px;
+    float:right;
+    
+}
+
+.three {
+    width: 330px;
+    height: 90px;
+    float: right;
+}
+
+.four {
+    width: 330px;
+    height: 90px;
+    float: right;
+}
+
+.button {
+    font-family: sans-serif;
+    color:limegreen;
+    text-decoration: underline;
+    font-size: 10px;
+    margin-left: 270px;
+}
+
+p  {
+    font-size: 11px;
+    font-family: sans-serif;
+    color:grey;
+    line-height: 2;
+    padding:1px;
+}
+
+h6 {
+    color: grey;
+    margin-left: 150px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+h5 {
+    color:grey;
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+
+#bottom {
+    display: inline-block;
+    float:left;
+    background-color: ;
+    width:790px;
+    border-radius: 1px;
+    margin-left: 9px;
+    height: 200px;
+    border-top: solid lightgrey;
+    border-bottom: solid lightgrey;
+    padding-top:10px;
+
+}
+
+.div5 {
+    float:left;
+    width:200px;
+    background-color: white;
+    border-right: solid lightgrey;
+}
+
+.div6 {
+    float:left;
+    width:200px;
+     background-color: white;
+    border-right: solid lightgrey;
+}
+.div7 {
+    float:left;
+    width:250px;
+     background-color: white;
+    margin-left: 40px;
+}
+
+li {
+    font-family: sans-serif;
+    font-size: 11px;
+    line-height: 2;
+    color:grey;
+}
+
+.div8 {
+    color:limegreen;
+    font-size:10px;
+    text-align: right;
+    text-decoration: underline;
+    margin-left: 100px;
+    background-color: white;
+}
+
+.window {
+    width:140px;
+    height:90px;
+    float:left;
+}
+
+.para {
+   margin-left: 150px;
+}
