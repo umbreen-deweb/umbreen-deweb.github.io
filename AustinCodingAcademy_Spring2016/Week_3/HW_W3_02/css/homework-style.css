@@ -3,10 +3,10 @@ body {
 }
 
 header{
-   margin-left: 185px;
+   margin-left: 195px;
     width:400px;
     text-align: center;
-    font-family: sans-serif;
+    font-family: helvetica;
     color: grey;
     padding:15px;
 }
@@ -39,8 +39,8 @@ div {
 
 .one {
     width:350px;
-    height:323px;
-    padding:13px;
+    height:327px;
+    padding:10px;
 }
 
 .two {
@@ -72,22 +72,29 @@ div {
 
 p  {
     font-size: 11px;
-    font-family: sans-serif;
+    font-family: helvetica;
     color:grey;
     line-height: 2;
     padding:1px;
 }
 
+h4 {
+    font-family: helvetica;
+    color: grey;
+    font-size: 13px;
+    padding: 9px;
+}
+
 h6 {
     color: grey;
     margin-left: 150px;
-    font-family: sans-serif;
+    font-family: helvetica;
     font-size: 13px;
 }
 
 h5 {
     color:grey;
-    font-family: sans-serif;
+    font-family: helvetica;
     text-align: center;
     
 }
@@ -99,31 +106,32 @@ h5 {
     width:790px;
     border-radius: 1px;
     margin-left: 9px;
-    height: 200px;
+    height: 130px;
     border-top: solid lightgrey;
     border-bottom: solid lightgrey;
-    padding-top:10px;
+    padding-top:2px;
 
 }
 
 .div5 {
     float:left;
-    width:200px;
+    width:220px;
     background-color: white;
     border-right: solid lightgrey;
 }
 
 .div6 {
     float:left;
-    width:200px;
+    width:220px;
      background-color: white;
     border-right: solid lightgrey;
+    padding-left:22px;
 }
 .div7 {
     float:left;
-    width:250px;
+    width:200px;
      background-color: white;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 li {
@@ -131,6 +139,11 @@ li {
     font-size: 11px;
     line-height: 2;
     color:grey;
+    padding-top: 5px;
+}
+
+ul {
+    list-style: none;
 }
 
 .div8 {
@@ -150,4 +163,9 @@ li {
 
 .para {
    margin-left: 150px;
+}
+
+.fa-check {
+    color:grey;
+    display:block;
 }

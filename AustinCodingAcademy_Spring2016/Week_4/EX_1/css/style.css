@@ -1,0 +1,120 @@
+* p, h1, a {
+    font-family: sans-serif;
+    color:white;
+    line-height: 2;
+}
+
+a{
+    border: 1px solid #31B404;
+    background-color: #31B404;
+    padding: .5%;
+    text-decoration: none;
+}
+.garden {
+    background-image: url(../img/1.jpg);
+    text-align: center;
+    line-height: 3;
+    background-size: cover;
+}
+ 
+.topline {
+    text-transform:uppercase;
+}
+
+h1 { 
+    font-size: 25px;
+    color:white;
+}
+
+h2 {
+    color:white;
+    font-family: sans-serif;
+    color: yellow;
+    font-size: 12px;
+    padding:3%;
+}
+.garden > div {
+    background-color: rgba (0,0,0,.5);
+    padding:100px 0;
+}
+
+#uno {
+    background-image: url(../img/featured-image-3.jpg);
+    background-size:cover;
+    margin-top: 17%;
+    width: 60%;
+    padding: 15%;
+    padding-top:28%;
+    padding-bottom: 20%;
+}
+
+#dos {
+    background-image: url(../img/featured-image-4.jpg);
+    background-size:cover;
+    width: 60%;
+    margin-top: 6%;
+    padding: 15%;
+    padding-top: 25%;
+    padding-bottom: 20%;
+    
+}
+
+#tres {
+    background-image: url(../img/featured-image-5.jpg);
+    background-size:cover;
+    width:45%;
+    float:left;
+    margin-top:5%;
+    padding: 5%;
+    padding-bottom:13%; 
+    padding-top:10%;
+}
+
+opacity > div {
+    background: rgba(0, 0, 0, .5);
+    padding: 50px 20px;
+}
+
+.opacity {
+    width:100%;
+    background: rgba (0, 0, 0, .5);
+}
+
+.left {
+    float:left;
+    width:30%;
+    margin-left:5%;
+}
+
+.clicks {
+    width: 50%;
+    float: left;
+}
+
+.one {
+    font-size: 9px;
+    background-color: #6E6E6E;
+    padding: 4.5%;
+    width:38%;
+    float:left;
+    margin: 2%;
+    text-align: center;
+    color:white;
+    font-family: sans-serif;
+}
+
+.two {
+    color: white;
+    float:left;
+    padding: 4%;
+    font-size:9px;
+    font-weight: bold;
+    margin: 2%;
+    font-family: sans-serif;
+    border: 1px solid white;  
+}
+
+p {
+    font-size:11px;
+   padding: 0 0 5% 3%;
+}
