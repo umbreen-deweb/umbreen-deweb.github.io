@@ -4,7 +4,7 @@
     line-height: 2;
 }
 
-a{
+.click3{
     border: 1px solid #31B404;
     background-color: #31B404;
     padding: .5%;
@@ -15,6 +15,7 @@ a{
     text-align: center;
     line-height: 3;
     background-size: cover;
+    margin:3%;
 }
  
 .topline {
@@ -34,7 +35,7 @@ h2 {
     padding:3%;
 }
 .garden > div {
-    background-color: rgba (0,0,0,.5);
+    background-color:rgba(0,0,0,.6);
     padding:100px 0;
 }
 
@@ -65,25 +66,17 @@ h2 {
     width:45%;
     float:left;
     margin-top:5%;
-    padding: 5%;
-    padding-bottom:13%; 
+    padding:5%;
+    padding-bottom:12%; 
     padding-top:10%;
-}
-
-opacity > div {
-    background: rgba(0, 0, 0, .5);
-    padding: 50px 20px;
-}
-
-.opacity {
-    width:100%;
-    background: rgba (0, 0, 0, .5);
+    opacity: rgba (0,0,0 0.6);
 }
 
 .left {
     float:left;
     width:30%;
-    margin-left:5%;
+   margin-left: 3%;
+
 }
 
 .clicks {
@@ -101,6 +94,7 @@ opacity > div {
     text-align: center;
     color:white;
     font-family: sans-serif;
+    text-decoration: none;
 }
 
 .two {
@@ -112,6 +106,7 @@ opacity > div {
     margin: 2%;
     font-family: sans-serif;
     border: 1px solid white;  
+    text-decoration: none;
 }
 
 p {
