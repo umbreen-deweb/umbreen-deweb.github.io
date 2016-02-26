@@ -1,0 +1,121 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 90%;
+    margin-left: 5%;
+}
+nav {
+    padding: 2% 1%;
+    width: 98%; 
+}
+
+h1 {
+    font-size: 25px; 
+    float:left;
+}
+
+nav li {
+    display: inline-block;
+    
+}
+
+nav ul {
+  float: right;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #848484;
+   margin-left: 9px;
+    font-size: .75em;
+    
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+main {
+    background-image:url(../img/wine-bg.jpg);
+    background: cover;
+    text-align: center;
+    color: white;
+}
+
+main > div {
+    background-color: rgba(0,0,0, .8);
+    padding: 200px 0;   
+}
+
+main p {
+    font-size: 10px;
+    padding-top: 8%;
+}
+.two_boxes {
+    width: 100%;
+    text-align:
+}
+
+.box1{
+    width: 48%;
+    float: left;
+    text-align: center;
+    padding-top: 10%;
+    margin-left: 1%;
+    margin-top: 6%;
+    
+}
+
+.box2{
+    width: 50%;
+    float: left;
+}
+
+.two_boxes div img {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.box1 > p { 
+color: grey;
+font-size: 10px;
+}
+
+h3 {
+    font-style: italic;
+    font-family:serif;
+    font-weight:bolder;
+    font-size: 25px;
+    
+}
+
+.box3 {
+    margin-top: 52.5%;
+    background-image:url(../img/wine13.jpg);
+    text-align: center;
+    color: white;
+}
+
+.box3 > div {
+    background-color: rgba(0,0,0, .8);
+    background: cover;
+    padding: 100px 0;
+    padding-bottom: 4%;
+    padding-top: 4%;
+}
+
+h4 {
+    font-style: italic;
+    font-family: serif;
+    font-size: 25px;
+}
+
+.box3 p {
+    font-size: 11px;
+    padding: 2%
+}

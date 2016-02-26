@@ -70,7 +70,6 @@ h2 {
     padding-bottom:12%; 
     padding-top:10%;
     margin-left: -2%;
-    opacity: rgba (0,0,0 0.6);
 }
 
 .left {
@@ -79,6 +78,8 @@ h2 {
    margin-left: 3%;
 
 }
+
+
 
 .clicks {
     width: 50%;
@@ -116,3 +117,4 @@ p {
 }
 
 
+    
