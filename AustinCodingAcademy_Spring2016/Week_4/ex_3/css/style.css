@@ -2,6 +2,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     width: 90%;
     margin-left: 5%;
+    padding-bottom: 20px;
 }
 nav {
     padding: 2% 1%;
@@ -41,7 +42,7 @@ a {
 }
 
 main {
-    background-image:url(../img/wine-bg.jpg);
+    background-image: url(../img/wine-bg.jpg);
     background: cover;
     text-align: center;
     color: white;

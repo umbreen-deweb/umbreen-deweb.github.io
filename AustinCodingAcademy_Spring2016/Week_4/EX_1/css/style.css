@@ -116,5 +116,9 @@ p {
    padding: 0 0 5% 3%;
 }
 
+.left > div {
+    background-color:rgba(0,0,0,.6);
+    padding:100px 0;
+}
 
     
