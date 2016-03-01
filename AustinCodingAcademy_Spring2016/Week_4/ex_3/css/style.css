@@ -43,7 +43,8 @@ a {
 
 main {
     background-image: url(../img/wine-bg.jpg);
-    background: cover;
+    background-size: cover;
+    background-position: center;
     text-align: center;
     color: white;
 }
