@@ -54,6 +54,7 @@ main {
     padding-bottom: 1%;
     margin-top: -3%;
     
+    
 }
 
 h2 {
@@ -79,6 +80,7 @@ section {
 
 section img {
     float: left;
+    border-radius: 5%;
 }
 
 section p {
@@ -106,6 +108,7 @@ h3 {
 .bigbox4 img {
     width: 150px;
     height: 140px;
+    border-radius: 5%;
     
 }
 
