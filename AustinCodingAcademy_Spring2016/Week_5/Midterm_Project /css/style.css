@@ -1,0 +1,122 @@
+body {
+    width: 100%;
+}
+
+nav {
+    padding: 0 2%;
+    width: 96%; 
+    background-image: 
+    background: cover;
+    background-position: center;
+    color: black;
+}
+
+h1 {
+    font-size: 25px; 
+    float:left;
+    font-family: sans-serif;
+    
+}
+
+nav li {
+    display: inline-block;
+    
+}
+
+nav ul {
+  float: right;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+   margin-left: 9px;
+    font-size: .75em;
+    font-family:sans-serif;
+    
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+main {
+    background-image: url(../img/hand_art.jpg);
+    background-color: rgba (0,0,0, .5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 1%;
+    margin-top: -3%;
+    
+}
+
+h2 {
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 15%;
+    font-size: 35px;
+    color: white;   
+}
+
+main p {
+    font-size: 16px;
+    padding: 3%;
+    text-align: center;
+    color: white;
+}
+
+section {
+    width: 98%;
+    margin: 3%;
+    margin-top: 5%;
+}
+
+section img {
+    float: left;
+}
+
+section p {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-left: 29%;
+    width: 65%;
+    font-family: sans-serif;
+    font-size: 13px;
+    line-height: 2;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.bigbox4 {
+    width:98%;
+    background-color:#EFFBFB;
+}
+
+
+.bigbox4 img {
+    width: 150px;
+    height: 140px;
+    
+}
+
+.bigbox4 div {
+    float:left;
+    width:20%;
+    text-align: center;
+    padding: 2%;
+    display: inline-block;
+}
+
+.bigbox4 p {
+    font-size: 10px;
+}
