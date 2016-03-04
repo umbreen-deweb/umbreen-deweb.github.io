@@ -105,7 +105,7 @@ article {
 
 article img {
     float: left;
-    border-style: inset;
+    margin-left: 3%;
 }
 
 article p {
