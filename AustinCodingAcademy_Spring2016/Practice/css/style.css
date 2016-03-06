@@ -1,0 +1,83 @@
+
+
+body {
+    width:100%;
+}
+
+/*nav stuff*/
+
+nav {
+    width: 90%;   
+}
+
+nav h1 {
+    float:left;
+}
+
+nav ul {
+    float:right;
+    width: 30%;    
+}
+
+li {
+    display: inline-block;
+    padding: 2%;
+   
+}
+
+h1 {
+    color:grey;
+    font-family: monospace;
+}
+
+a {
+    text-decoration: none;
+    color:grey;
+    font-size: 13px;
+    font-family: monospace;
+    
+}
+
+/* IMAGES In the Main Part*/
+
+main {
+    width:98%;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+div {
+    width:100%;  
+    float:left;
+    
+}
+
+.img1 {
+    width:45%;
+    height: 500px;
+    padding: 1%;
+
+}
+
+.img2 {
+    width:45%;
+    height: 500px;
+    padding: 1%;
+}
+
+footer {
+    width:90%;
+}
+
+footer p {
+    font-family: monospace;
+    color:grey;
+    margin-left: 2%;
+}
