@@ -88,16 +88,15 @@ div {
     font-family: monospace;
     color:grey;
     font-size: 11px;
-    
+    text-align: center;
+       
 }
 
-h4 {
-    text-align: center;
-}
 
 .mini_img {
     width:100%;
     height: 200px;
+    margin-top: 7%;
     
 }
 /*last part*/
