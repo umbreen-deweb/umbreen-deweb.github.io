@@ -28,6 +28,7 @@ li {
 h1 {
     color:grey;
     font-family: monospace;
+    margin-left: 2%;
 }
 
 a {
@@ -41,7 +42,7 @@ a {
 /* IMAGES In the Main Part*/
 
 main {
-    width:98%;
+    width:100%;
 }
 
 .clearfix:after {
@@ -61,17 +62,45 @@ div {
 
 .img1 {
     width:45%;
-    height: 500px;
+    height: 450px;
     padding: 1%;
 
 }
 
 .img2 {
     width:45%;
-    height: 500px;
+    height: 450px;
     padding: 1%;
 }
 
+/* second part with small images*/
+
+.second_bigbox {
+    width:100%;
+    margin-top: 2%;
+}
+
+.mini_box {
+    width:20%;
+    float:left;
+    margin: 1%;
+    padding:1%;
+    font-family: monospace;
+    color:grey;
+    font-size: 11px;
+    
+}
+
+h4 {
+    text-align: center;
+}
+
+.mini_img {
+    width:100%;
+    height: 200px;
+    
+}
+/*last part*/
 footer {
     width:90%;
 }
