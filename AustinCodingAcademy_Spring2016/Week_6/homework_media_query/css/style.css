@@ -1,0 +1,64 @@
+body {
+    width: 100%;
+}
+    
+    
+    main {
+        background-image: url(../img/sub_header_home.jpg);
+        background-size: cover;
+}
+
+header {
+    color:white;
+    padding-top: 15%;
+    padding-bottom: 10%;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 35px;
+    padding-bottom: 3%;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 11px;
+    font-family: sans-serif;
+}
+
+/* second part with icons*/
+
+.second_box {
+    width:100%;
+    float:left;
+}
+
+.icon {
+    width:20%;
+    float:left;
+    padding: 2%;
+    text-align: center;
+}
+
+.icon p {
+    font-size: 10px;
+    padding-top: 5%;
+}
+
+h4 {
+    font-size: 13px;
+    padding-top: 13%;
+    font-weight:600;
+}
+
+/* media query part*/
+
+/* TABLET */
+
+ @media and screen (min-width: 768px) and (max-width: 991px) { 
+     
+     .icon {
+         width:45%;
+     }
+}
