@@ -39,16 +39,17 @@ p {
     float:left;
     padding: 2%;
     text-align: center;
+    padding-bottom: 3%;
 }
 
 .icon p {
     font-size: 10px;
-    padding-top: 5%;
+    padding-top: 3%;
 }
 
 h4 {
     font-size: 13px;
-    padding-top: 13%;
+    padding-top: 4%;
     font-weight:600;
 }
 
@@ -56,9 +57,21 @@ h4 {
 
 /* TABLET */
 
- @media and screen (min-width: 768px) and (max-width: 991px) { 
+ @media only screen and (min-width: 768px) and (max-width: 991px) { 
      
      .icon {
          width:45%;
-     }
+ 
+    }
+}
+
+@media only screen and  (max-width: 767px) {
+    
+    .icon {
+        width:90%;
+    }
+    
+    .icon p {
+        font-size: 13px;
+    }
 }
