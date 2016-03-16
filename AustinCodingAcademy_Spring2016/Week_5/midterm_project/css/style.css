@@ -121,21 +121,29 @@ h3 {
 
 /* box 4 */
 
-.bigbox4 {
+#bigbox4 {
     width:98%;
     background-color:#F2F2F2;
-    padding-bottom: 40%;
+
 }
 
+    .clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
 
-.bigbox4 img {
+#bigbox4 img {
     width: 150px;
     height: 140px;
     border-radius: 50%;
     
 }
 
-.bigbox4 div {
+#bigbox4 div {
     float:left;
     width:20%;
     text-align: center;
@@ -143,7 +151,7 @@ h3 {
     display: inline-block;
 }
 
-.bigbox4 p {
+#bigbox4 p {
     font-size: 12px;
     font-family: sans-serif;
 }
