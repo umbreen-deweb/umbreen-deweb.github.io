@@ -158,11 +158,11 @@ h3 {
 
 /* box 5 */
 
-.box5 {
+#box5 {
     width: 98%;
 }
 
-.box5 div {
+#box5 div {
     width:43%;
     float: left;
     text-align: center;
@@ -170,7 +170,7 @@ h3 {
     font-size: 12px;
     padding: 3%;
 }
-.box5 img {
+#box5 img {
     width:320px;
     height: 200px;
     border-style: inset
@@ -179,13 +179,10 @@ h3 {
 /* last box */
 
 .lastbox {
-    margin-top: 20%;
     width:98%;
     background-image: url(../img/artcamp-img.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    padding-bottom: 3%;
-    padding-top: 3%;
 
     
 }
