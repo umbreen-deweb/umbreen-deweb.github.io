@@ -1,8 +1,9 @@
 .top_bar {
-    background-color: #E6E6E6;
+    background-color:black;
     text-align: center;
     padding:1%;
     margin:1%;
+    color:white;
 }
 
 img {
@@ -10,19 +11,28 @@ img {
     margin:1%;
 }
 
+.second_box {
+    background-color: #FAFAFA;
+}
+
+
 .third_box {
     background-color: #E6E6E6;
 }
 
-.row {
-    margin:1%;
-}
 
 .subs {
-    margin: 2% 0 0 0;
+    margin: 12% 0 0 0;
 }
 
-div {
-    padding: .5% 0;
+
+.row {
+    margin: 1%;
 }
 
+.footer{
+   background-color:gray;
+    color:white;
+    font-size: 20px;
+    text-align: center;
+}
