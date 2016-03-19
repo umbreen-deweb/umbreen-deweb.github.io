@@ -21,13 +21,6 @@ img {
 }
 
 
-.subs {
-    width: 280px;
-    height: 50px;
-    margin: 9% 0 0 0;
-}
-
-
 .row {
     margin: 1%;
 }
@@ -39,17 +32,17 @@ img {
     text-align: center;
 }
 
-.first_big_pic {
-    height: 350px;
-}
-.sm_img {
-    width:150px;
-    height: 200px;
-    padding-left:9%;
 
+
+
+.red_velvet {
+    padding-top: 30%;
+    
 }
 
-.big_pic {
-    width: 280px;
-    height: 280px;
+p {
+    text-align: center;
+    background-color: white;
+    margin-top: 5%;
+    padding: 3% 0;
 }
