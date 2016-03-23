@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap Homework </title>
+    <title>Bootstrap 101 Template</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -23,11 +23,63 @@
     <body>
 <!--        container fluid will span the entire width of the page-->
        
-        <main class="container">
-    <header class="row top_bar">
-       <div class="col-xs-12"> Sweet Tooth
-            
-<nav class="navbar navbar-default">
+      <nav class="navbar navbar-default">
+          <button class="collapsed navbar-toggle" data-target="#nav_collapse" data-toggle="collapse"> 
+              <spam class="icon-bar"></spam>
+                <spam class="icon-bar"></spam>
+                <spam class="icon-bar"></spam>
+              
+          
+          
+          </button>
+          
+    <div class="navbar-header">
+        <a href="#" class="navbar-brand"> Hello nav </a>
+
+    </div>
+          
+<div id="nav_collapse" class="collapse navbar-collapse">
+<!--    because we have given this a div id the div knows when to collapse-->
+    <ul class="nav navbar-nav">
+        <li><a href="#"> Page 1 </a> </li>
+        <li class="dropdown"><a href="#" data-toggle="dropdown"> Page 2 <span class="caret"></span> </a>
+            <ul class="dropdown-menu">
+                <li class="dropdown-header"> Heading </li>
+                <li> <a href="#"> Item 1 </a></li>
+                <li> <a href="#"> Item 2 </a></li>
+                <li class="divider" role="separator"></li>
+                <li> <a href="#"> Item 3 </a></li>
+            </ul>
+
+
+        </li>
+        <li><a href="#"> Page 3 </a> </li>
+
+
+    </ul>
+    <form class="navbar-form navbar-left">
+        <div class="form-group">
+            <input class="form-control" type="text" placeholder="search">
+
+        </div>
+        <button class="btn btn-default"> Submit</button>
+
+    </form>
+          
+          <ul class="nav navbar-nav navbar-right">
+              <li> <a href="#"> Sign in </a></li>
+                <li> <a href="#"> Order </a></li>
+          
+          
+          
+          </ul>
+
+          </div>
+</nav>
+
+        <h1> Hello!</h1>
+        
+        <nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -80,98 +132,7 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-        </div>
 
-        </header>
-
-   
-    <!--            second ROW-->
-            
-    <div class="row second_box">
-        <div class="col-sm-12">
-
-            <div class="col-xs-12 col-sm-7 col-md-8">
-                <img class="first_big_pic" src="http://www.solutionstalk.com/home/wp-content/uploads/menu-pic-dessert-minis.jpg">
-            </div>
-
-            
-            <div class="col-xs-12 col-sm-3 col-sm-offset-1  col-md-3">
-                <form action="action_form.php">
-        Search Site
-                <input type="email" name="subscription">
-                    </form>
-            </div>
-             
-            <div class="col-xs-12 col-sm-4 col-md-4">
-                <img class="red_velvet" src="http://www.tallahasseemagazine.com/flavor-desserts-cupcakes-leos-publix.jpg">
-            </div>
-        </div>
-    </div>
-
-
-
-    <!--            THIRD ROW -->
-
-    <div class="row third_box">
-       
-           <section class="col-md-3 col-md-offset-0 col-sm-8 col-sm-offset-2 col-xs-12 green-background">
-                <img class="big_pic" src="https://s-media-cache-ak0.pinimg.com/736x/e2/12/e4/e212e4acd9b3a91ee8ca9427cb33a5be.jpg">
-        </section>
-<!-- the four coloums on the right hand side-->
-               <section class="col-xs-12 col-sm-12 col-md-9 four_pics">
-            <div class="col-xs-6 col-sm-3 col-md-3">
-                <img class="sm_img" src="http://static.communitytable.parade.com/wp-content/uploads/2015/06/Vegan-Red-White-and-Blue-Cheesecake_feature.jpg">
-            <p> “We must have a pie. Stress cannot exist in the presence of a pie.” 
-― David Mamet, Boston Marriage</p></div>
-
-             <div class="col-xs-6 col-sm-3 col-md-3">
-                <img class="sm_img" src="http://static.communitytable.parade.com/wp-content/uploads/2015/06/Vegan-Red-White-and-Blue-Cheesecake_feature.jpg">
-            <p> “Look, there's no metaphysics on earth like chocolates.” 
-― Fernando Pessoa</p></div>
-
-             <div class="col-xs-6 col-sm-3 col-md-3">
-                <img class="sm_img" src="http://static.communitytable.parade.com/wp-content/uploads/2015/06/Vegan-Red-White-and-Blue-Cheesecake_feature.jpg">
-            <p> “I'm not a vegetarian! I'm a dessertarian!” 
-― Bill Watterson, Something Under the Bed is Drooling</p></div>
-
-           <div class="col-xs-6 col-sm-3 col-md-3">
-                <img class="sm_img" src="http://static.communitytable.parade.com/wp-content/uploads/2015/06/Vegan-Red-White-and-Blue-Cheesecake_feature.jpg">
-               <p> “Sure I eat my feelings, but I save the emotional roller coaster for dessert” 
-― Josh Stern</p>
-            </div>
-                     
-        
-
-<!-- SUBS in ROW Three -->
-             <div class="col-xs-12 col-sm-6 col-md-6 text-center subs">
-                <h4>Love Red Velvet Cake </h4> 
-            </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-6 text-center subs">
-                <h4> Berries Are the Best</h4> 
-            </div>
-
-            
-      
-      
-              </section>
-            </div>
-
-    <!--            FOOTER-->
-
-    <div class="row footer">
-        <div class="col-sm-12"> Bootstrap is Sweeeet! not!
-
-        </div>
-    </div>
-
-
-</main>
-
-        
-        
-        
-        
    
 <!-- jquery is bootstrap for javascript -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
