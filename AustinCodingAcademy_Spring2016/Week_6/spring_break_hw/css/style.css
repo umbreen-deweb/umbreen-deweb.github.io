@@ -1,8 +1,11 @@
 .top_bar {
    height: inherit;
-    background-color: black;
+    background-color: black;  
     
-    
+}
+
+.first_big_pic {
+    height: 380px;
 }
 
 .header_img {
@@ -32,6 +35,7 @@ h6 {
     margin:0.5%;
 }
 
+
 .footer{
    background-color:darkgray;
     color:white;
@@ -42,27 +46,22 @@ h6 {
 
 .big_pic {
    width: 100%;
+    min-height: 200px;
     
 }
 
 .sm_img {
     height: 200px;
-    width: 100%;
+    width: 170px;
 }
 
-
-
-.bakery {
-     width: 100%;
-     
-}
 
 p {
     text-align: center;
     margin-top: 5%;
     font-family: sans-serif;
     font-weight: 500;
-    height: 130px;
+    height: 150px;
 
     
 }
