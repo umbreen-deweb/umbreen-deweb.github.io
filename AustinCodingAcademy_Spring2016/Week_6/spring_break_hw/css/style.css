@@ -13,12 +13,24 @@
     height: auto;
 }
 
+/*NAV SECTION */
+
+my_nav {
+    color:darkmagenta;
+}
 
 img {
     width:100%;
 }
 
-
+.second_box_text {
+    font-family: sans-serif;
+    line-height: 2;
+}
+/*THIRD BOX */
+.order_area {
+    margin-top: 2%;
+}
 .four_pics {
     border-style: outset;
 }
@@ -31,11 +43,12 @@ h6 {
     
 }
 
-.row {
-    margin:0.5%;
+.sm_img {
+    height: 200px;
+    width: 170px;
 }
 
-
+/* FOOTER */
 .footer{
    background-color:darkgray;
     color:white;
@@ -50,10 +63,7 @@ h6 {
     
 }
 
-.sm_img {
-    height: 200px;
-    width: 170px;
-}
+
 
 
 p {
