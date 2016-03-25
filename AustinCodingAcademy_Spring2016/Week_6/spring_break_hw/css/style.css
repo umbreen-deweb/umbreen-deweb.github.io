@@ -1,10 +1,7 @@
 .top_bar {
    height: inherit;
-    background-image: url("http://brisbanepowerhouse.org/wp-content/uploads/2015/03/BPH_Sweet_1_2014-1178x663.jpeg");
-    padding:10%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-color: black;
+    
     
 }
 
@@ -20,7 +17,7 @@ img {
 
 
 .four_pics {
-    background-color:#df8e98;
+    border-style: outset;
 }
 
 h6 {
@@ -44,38 +41,29 @@ h6 {
 
 
 .big_pic {
-    margin-top: 1%;
-     border-radius: 1%;
-    
+   width: 100%;
     
 }
 
 .sm_img {
-    width:100%;
-    height:150px;
-    border-radius: 20%;
-    padding:6%;
+    height: 200px;
+    width: 100%;
 }
 
 
 
 .bakery {
      width: 100%;
-    margin-top: 10%;
-    height: inherit;
-    border-radius: 50%;
-    border:2px solid grey;
      
 }
 
 p {
     text-align: center;
     margin-top: 5%;
-    padding: 3% 5%;
     font-family: sans-serif;
     font-weight: 500;
     height: 130px;
-    background-color:#df8e98;
+
     
 }
 
