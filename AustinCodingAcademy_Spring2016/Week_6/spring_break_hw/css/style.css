@@ -4,9 +4,6 @@
     
 }
 
-.first_big_pic {
-    height: 380px;
-}
 
 .header_img {
     width: 20%;
@@ -27,10 +24,18 @@ img {
     font-family: sans-serif;
     line-height: 2;
 }
-/*THIRD BOX */
-.order_area {
-    margin-top: 2%;
+
+#carousel-example-generic {
+    height: 300px;
+    overflow: hidden;
 }
+
+
+/*THIRD BOX */
+.third_box {
+    margin-top:5%;
+}
+
 .four_pics {
     border-style: outset;
 }
@@ -41,6 +46,11 @@ h6 {
     font-family: sans-serif;
     font-weight: 800;
     
+}
+
+.custom_order {
+    font-family: sans-serif;
+    padding: 5%;
 }
 
 .sm_img {
