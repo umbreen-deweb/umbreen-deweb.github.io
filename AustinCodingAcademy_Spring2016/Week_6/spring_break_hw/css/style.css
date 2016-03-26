@@ -30,6 +30,9 @@ img {
     overflow: hidden;
 }
 
+.carousel_pic {
+    min-width: 300px;
+}
 
 /*THIRD BOX */
 .third_box {
@@ -69,12 +72,9 @@ h6 {
 
 .big_pic {
    width: 100%;
-    min-height: 200px;
+    max-height: 200px;
     
 }
-
-
-
 
 p {
     text-align: center;
@@ -87,8 +87,7 @@ p {
 }
 
 .footer_img {
-    height: inherit;
     width: 50%;
-   
+    max-height: 300px;
 }
 
