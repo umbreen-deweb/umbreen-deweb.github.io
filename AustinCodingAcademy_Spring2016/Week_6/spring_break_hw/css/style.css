@@ -22,21 +22,28 @@ img {
 
 .second_box_text {
     font-family: sans-serif;
-    line-height: 2;
+    font-weight: 200;
+    line-height: 3;
+    padding: 2% 0;
+   
 }
 
 #carousel-example-generic {
-    height: 300px;
+    max-height: 400px;
     overflow: hidden;
 }
 
-.carousel_pic {
-    min-width: 300px;
+
+/*.carousel_pic {
+   width:100%;
+    overflow: hidden;
 }
+*/
 
 /*THIRD BOX */
 .third_box {
     margin-top:5%;
+    border-style: 1px outset black;
 }
 
 .four_pics {
@@ -53,12 +60,23 @@ h6 {
 
 .custom_order {
     font-family: sans-serif;
-    padding: 5%;
+    padding: 3% 0;
+    text-align:left;
 }
 
+p {
+    text-align: center;
+    margin-top: 5%;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-weight: 200;
+    height: 150px;
+
+    
+}
 .sm_img {
     height: 200px;
-    width: 170px;
+    width: 90%;
 }
 
 /* FOOTER */
@@ -72,19 +90,11 @@ h6 {
 
 .big_pic {
    width: 100%;
-    max-height: 200px;
+    min-height: 300px;
     
 }
 
-p {
-    text-align: center;
-    margin-top: 5%;
-    font-family: sans-serif;
-    font-weight: 500;
-    height: 150px;
 
-    
-}
 
 .footer_img {
     width: 50%;
