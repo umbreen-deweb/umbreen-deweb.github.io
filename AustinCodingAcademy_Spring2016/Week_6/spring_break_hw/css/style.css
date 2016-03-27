@@ -16,10 +16,6 @@ my_nav {
     color:darkmagenta;
 }
 
-img {
-    width:100%;
-}
-
 .second_box_text {
     font-family: sans-serif;
     font-weight: 200;
@@ -33,12 +29,10 @@ img {
     overflow: hidden;
 }
 
-
-/*.carousel_pic {
-   width:100%;
-    overflow: hidden;
+img {
+    width: 100%;
 }
-*/
+
 
 /*THIRD BOX */
 .third_box {
@@ -76,7 +70,7 @@ p {
 }
 .sm_img {
     height: 200px;
-    width: 90%;
+    width: 85%;
 }
 
 /* FOOTER */
@@ -87,14 +81,6 @@ p {
     font-size: 20px;
     text-align: center;
 }
-
-
-.big_pic {
-   width: 100%;
-    min-height: 300px;
-    
-}
-
 
 
 .footer_img {
