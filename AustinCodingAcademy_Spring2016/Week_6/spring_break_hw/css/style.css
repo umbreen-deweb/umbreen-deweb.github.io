@@ -75,6 +75,30 @@ img {
     
 }
 
+a {
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 200;
+    padding:35%
+}
+
+a:hover {
+    font-size:25px;
+    text-decoration: none; 
+}
+
+.example {
+    background-color: lightcyan;
+    padding: 10px;
+    text-align: center;
+    display: none;
+}
+
+a:hover + .example {
+    display: block;
+}
+
 h6 {
     color:cornsilk;
     text-align: center;
