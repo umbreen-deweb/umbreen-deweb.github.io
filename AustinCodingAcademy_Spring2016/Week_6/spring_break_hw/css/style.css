@@ -62,12 +62,16 @@ img {
 
 /*THIRD BOX */
 .third_box {
-    margin-top:5%;
-    border-style: 1px outset black;
+    margin-top:7%;
+    border-left-style: 1px outset black;
+   
 }
 
 .four_pics {
     border-style: outset;
+    border-bottom-style: hidden;
+    border-top-style: hidden;
+    border-right-style: hidden;
     
 }
 
