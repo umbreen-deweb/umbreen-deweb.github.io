@@ -8,5 +8,35 @@ body {
 }
 
 navbar-brand page-scroll {
-    font-size: 50px;
+    font-size: 40px;
+}
+
+.my_nav {
+    background-color:#AEB404;
+}
+
+.big_button {
+    background-color:#AEB404;
+}
+
+img {
+    border-radius: 5%;
+}
+
+h2 {
+    color:#AEB404;
+}
+
+
+
+.navbar-default .navbar-brand {
+    font-family: sans-serif;
+    font-weight: 900;
+    letter-spacing: 3px;
+    font-size: 40px;
+    color:white;
+}
+
+.btn-xl {
+    background-color: #AEB404;
 }
