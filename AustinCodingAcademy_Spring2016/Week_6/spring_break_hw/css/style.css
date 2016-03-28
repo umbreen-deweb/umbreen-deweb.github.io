@@ -79,12 +79,12 @@ a {
     text-align: center;
     color: black;
     font-family: sans-serif;
-    font-weight: 200;
+    font-weight: 500;
     padding:35%
 }
 
 a:hover {
-    font-size:25px;
+    font-size:20px;
     text-decoration: none; 
 }
 
