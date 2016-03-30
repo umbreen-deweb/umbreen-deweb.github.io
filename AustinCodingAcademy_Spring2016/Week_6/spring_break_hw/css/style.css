@@ -254,13 +254,16 @@ p {
     border-radius: 2%;
 }
 
-
+.sub_img {
+    padding:5%;
+    height: 125px;
+    width: 90%;
+}
 
 /* FOOTER */
 .footer{
     margin-top: 5%;
-   background-color:darkgray;
-    color:white;
+    color:black;
     font-size: 20px;
     text-align: center;
 }
@@ -305,6 +308,8 @@ p {
     background-repeat:
 }
 
-
+.lead {
+    color:black;
+}
 
 
