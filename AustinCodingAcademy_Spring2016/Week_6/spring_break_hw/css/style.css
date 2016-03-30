@@ -46,7 +46,7 @@
   }
   .content-block-one h1,
   .content-block-one .h1 {
-    font-size: 63px;
+    font-size: 43px;
   }
 }
 .bg {
@@ -148,7 +148,7 @@ background-size: 100% 100%;
 }
 
 .carousel-inner > .item > img {
-    height: inherit;
+   width: 100%;
 }
 
 .side_text {
