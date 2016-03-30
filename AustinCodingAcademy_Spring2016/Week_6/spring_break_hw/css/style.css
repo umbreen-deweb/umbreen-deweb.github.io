@@ -181,6 +181,14 @@ img {
     width: 100%;
 }
 
+#clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
 
 /*THIRD BOX */
 .third_box {
