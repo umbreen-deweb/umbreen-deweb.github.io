@@ -157,7 +157,7 @@ background-size: 100% 100%;
 }
 
 h3 {
-    font-size: 17px;
+    font-size: 15px;
     font-family: sans-serif;
     font-weight: 200;
     line-height: 2;
@@ -189,6 +189,9 @@ img {
    
 }
 
+iframe {
+    width: 95%;
+}
 .four_pics {
     border-style: outset;
     border-bottom-style: hidden;
@@ -206,7 +209,7 @@ a {
 }
 
 a:hover {
-    font-size:22px;
+    font-size:20px;
     text-decoration: none; 
 }
 
@@ -247,8 +250,8 @@ p {
     
 }
 .sm_img {
-    width: 90%;
-    border-radius: 3%;
+    width: 100%;
+    border-radius: 2%;
 }
 
 
@@ -278,3 +281,30 @@ p {
          width;100%;
      }
 }
+
+/* PARALAX STYLING*/
+
+.content-space-one {
+    background-image: url(../img/para_img_1.jpg);
+    
+}
+
+.content-space-two {
+    background-image: url(../img/para_img_chefs_2.jpg);
+}
+
+.content-block-one {
+    background-color: #E6E6E6;
+    
+}
+
+
+.jumbotron {
+    background-image:url(../img/para_img_1.jpg);
+    background-size: cover;
+    background-repeat:
+}
+
+
+
+
