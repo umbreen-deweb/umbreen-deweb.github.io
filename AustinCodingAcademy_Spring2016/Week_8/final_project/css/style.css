@@ -1,25 +1,37 @@
 body {
-    background-image: url(../img/laddder.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    margin:0;
 }
 
+.my_header {
+    background-color: #e8e8e9;
+}
 
-h1 {
-    color:#FFBF00;
-    padding: 2%;
-    font-weight: 300;
-    float:right;
-    margin-top: 13%;
+h2 {
+    font: normal 28px 'Rochester', cursive;
+    text-align: center;
+    padding: 5px;
+    background-color: #3a3a3b;
+    box-shadow: 0 1px 2px #888;
+    border: 1px solid #333;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 160px;
+    margin-left: -80px;
+    color: #fff;
+}
+
+ h1 {
+    text-align: center;
+    font: normal 56px 'Bree Serif', sans-serif;
+    color: #494949;
+    padding: 60px 0 40px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
    
-}
-.nav-tabs {
-    float: right; 
-    padding-right: 5%;
-}
 
 a {
-     color: #FFBF00;
+    color: #2E2E2E;
     padding-top: 10%;
     float: right;
     font-size: 20px;
@@ -27,7 +39,73 @@ a {
    
 }
  
-a:hover {
+
+h6 {
+    padding: 1%;
+    color: #2E2E2E;
+    font-family: monospace;
+}
+
+.nav_shav a {
+    border: 2px black solid;
+    border: hidden;
+    width: 178px;
+    color: black;
+    padding:19%;
+    text-align: center;
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: #494949;
     
+}
+
+.web{
+width: 300px;
+    height: 160px;
+    margin: 10px;
+    float: left;
+    border: 10px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    -webkit-box-shadow: 1px 1px 2px #e6e6e6;
+    -moz-box-shadow: 1px 1px 2px #e6e6e6;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+    background: #fff
+}
+
+.art {
+    width: 300px;
+    height: 160px;
+    margin: 10px;
+    float: left;
+    border: 10px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    -webkit-box-shadow: 1px 1px 2px #e6e6e6;
+    -moz-box-shadow: 1px 1px 2px #e6e6e6;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+    background: #fff
+    
+    
+}
+
+.estate {
+    width: 300px;
+    height: 160px;
+    margin: 10px;
+    float: left;
+    border: 10px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    -webkit-box-shadow: 1px 1px 2px #e6e6e6;
+    -moz-box-shadow: 1px 1px 2px #e6e6e6;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+    background: #fff
 }
 
