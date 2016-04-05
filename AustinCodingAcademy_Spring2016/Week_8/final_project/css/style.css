@@ -14,10 +14,8 @@ h1 {
    
 }
 .nav-tabs {
-    float: right;
-   
-   
-   
+    float: right; 
+    padding-right: 5%;
 }
 
 a {
@@ -25,8 +23,11 @@ a {
     padding-top: 10%;
     float: right;
     font-size: 20px;
+    padding-right: 5%;
    
 }
  
-
+a:hover {
+    
+}
 
