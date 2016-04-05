@@ -1,61 +1,32 @@
-
+body {
+    background-image: url(../img/laddder.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 h1 {
+    color:#FFBF00;
     padding: 2%;
     font-weight: 300;
+    float:right;
+    margin-top: 13%;
    
 }
 .nav-tabs {
-    background-color: #a1dcf2;
+    float: right;
+   
+   
    
 }
 
 a {
-    color: #2E2E2E;
+     color: #FFBF00;
+    padding-top: 10%;
+    float: right;
+    font-size: 20px;
+   
 }
  
-h2 {
-    margin-top: -130%;
-    text-align: center;
-    color: #FFBF00;
-}
-
-img {
-    width: 100%;
-    border-radius: 30%;
-    
-}
-
-.my_art {
-    background-image: url(../img/art_site.png);
-    background-size: contain;
-     background-repeat: no-repeat;
-    padding:20% 0;
-    margin: 1%;
-    opacity: 0.6;
-    
-}
-
-.my_estate {
-    background-image: url(../img/real_estate.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding:20% 0;
-    margin: 1%;
-    opacity:0.6;
-   
-}
-
-.my_web {
-    background-image: url(../img/web_imgs/savage_garden.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding:20% 0;
-    margin: 1%;
-    opacity:0.6;
-   
-    
-}
 
 
