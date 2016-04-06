@@ -54,7 +54,7 @@ a {
     color: #DBA901;
     float: right;
     font-size: 25px;
-    padding: 5%;
+    padding:5%;
     text-decoration: none;
    
 }
@@ -97,7 +97,7 @@ width: 100%;
     cursor: default;
     background: #DBA901;
     animation-name: example;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-delay: 1s;
 }
 
@@ -116,7 +116,7 @@ width: 100%;
     cursor: default;
     background: #E6E6E6;
     animation-name: example;
-    animation-duration: 2s;
+    animation-duration: 4s;
     animation-delay: 1s;
     background-image: url(../img/art_page_2.png);
     background-size: cover;
@@ -141,7 +141,7 @@ width: 100%;
     background: #610B38;
         
     animation-name: example;
-    animation-duration: 2s;
+    animation-duration: 5s;
     animation-delay: 1s;
     
 }
