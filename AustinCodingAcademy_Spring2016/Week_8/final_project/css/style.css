@@ -49,19 +49,20 @@ h2 {
 }
    
 
+/*
 a {
     font-family: 'Montserrat', sans-serif;
-/*    font: normal 6px 'Bree Serif', sans-serif;*/
-    color: #DBA901;
+    font: normal 6px 'Bree Serif', sans-serif;
     float: right;
     font-size: 25px;
     padding:5%;
     text-decoration: none;
    
 }
+*/
 
 a:hover {
-    text-shadow: 
+    
 }
  
 
@@ -83,6 +84,7 @@ h6 {
 /*    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;*/
     font-size: 16px;
     color: white;
+    text-decoration:none;
     
 }
 
