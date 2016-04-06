@@ -15,7 +15,7 @@ body {
 
 .img_box {
     background-image: url(../img/wood-wall-1.jpg);
-    padding:23%;
+    padding-bottom: 45%;
     background: cover;
     
 }
