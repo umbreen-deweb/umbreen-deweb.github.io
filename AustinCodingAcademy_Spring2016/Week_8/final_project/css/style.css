@@ -16,7 +16,7 @@ body {
 .img_box {
     background-image: url(../img/wood-wall-1.jpg);
     width:100%;
-    max-height: inherit;
+    max-height: auto;
     background: cover;
     background-repeat: no-repeat;
     
@@ -45,7 +45,7 @@ h2 {
     text-align: center;
     font: normal 56px 'Bree Serif', sans-serif;
     color: #DBA901;
-    padding: 60px 0 40px;
+    padding: 50px 0 30px;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
 }
    
