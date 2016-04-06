@@ -16,7 +16,7 @@ body {
 .img_box {
     background-image: url(../img/wood-wall-1.jpg);
     width:100%;
-    max-height: auto;
+    min-height:600px;
     background: cover;
     background-repeat: no-repeat;
     
@@ -24,6 +24,7 @@ body {
 
 img {
     width: 100%;
+    min-height: 600px;
 }
 
 h2 {
