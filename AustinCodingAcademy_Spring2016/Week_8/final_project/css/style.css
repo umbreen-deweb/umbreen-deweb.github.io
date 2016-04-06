@@ -49,20 +49,9 @@ h2 {
 }
    
 
-/*
-a {
-    font-family: 'Montserrat', sans-serif;
-    font: normal 6px 'Bree Serif', sans-serif;
-    float: right;
-    font-size: 25px;
-    padding:5%;
-    text-decoration: none;
-   
-}
-*/
 
 a:hover {
-    
+    font-size: 20px;
 }
  
 
