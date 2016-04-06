@@ -68,7 +68,9 @@ a:hover {
 h6 {
     padding: 3%;
     color:#DBA901;
-    font-family: monospace;
+     font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    letter-spacing: 2px;
 }
 
 .nav-stacked a {
