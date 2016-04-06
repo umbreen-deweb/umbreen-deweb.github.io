@@ -50,7 +50,8 @@ h2 {
    
 
 a {
-    font: normal 6px 'Bree Serif', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+/*    font: normal 6px 'Bree Serif', sans-serif;*/
     color: #DBA901;
     float: right;
     font-size: 25px;
@@ -60,7 +61,7 @@ a {
 }
 
 a:hover {
-    background: 
+    text-shadow: 
 }
  
 
@@ -76,7 +77,8 @@ h6 {
     width: 278px;
     padding:15%;
     text-align: center;
-    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+     font-family: 'Montserrat', sans-serif;
+/*    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;*/
     font-size: 16px;
     color: white;
     
@@ -97,7 +99,7 @@ width: 100%;
     cursor: default;
     background: #DBA901;
     animation-name: example;
-    animation-duration: 3s;
+    animation-duration: 4s;
     animation-delay: 1s;
 }
 
@@ -141,7 +143,7 @@ width: 100%;
     background: #610B38;
         
     animation-name: example;
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-delay: 1s;
     
 }
