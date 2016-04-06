@@ -1,13 +1,23 @@
 body {
     margin:0;
+    background-color: black;
 }
 
 .my_header {
-    background-color: #e8e8e9;
+    background-color:black;
 }
 
+/*
 .big_box {
     background-image: url(../img/wood-wall-1.jpg);
+}
+*/
+
+.img_box {
+    background-image: url(../img/wood-wall-1.jpg);
+    padding:23%;
+    background: cover;
+    
 }
 
 h2 {
@@ -28,14 +38,15 @@ h2 {
  h1 {
     text-align: center;
     font: normal 56px 'Bree Serif', sans-serif;
-    color: #494949;
+    color: #DBA901;
     padding: 60px 0 40px;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
 }
    
 
 a {
-    color: #2E2E2E;
+    font: normal 6px 'Bree Serif', sans-serif;
+    color: #DBA901;
     float: right;
     font-size: 20px;
     padding-right: 5%;
@@ -49,8 +60,8 @@ a:hover {
  
 
 h6 {
-    padding: 1%;
-    color: #2E2E2E;
+    padding: 3%;
+    color:#DBA901;
     font-family: monospace;
 }
 
@@ -58,12 +69,11 @@ h6 {
     border: 2px black solid;
     border: hidden;
     width: 178px;
-    color: black;
     padding:15%;
     text-align: center;
     font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
-    color: #494949;
+    color: white;
     
 }
 
@@ -72,15 +82,15 @@ width: 300px;
     height: 130px;
     margin: 10px;
     float: left;
-    border: 10px solid #fff;
+    border: 10px solid #DBA901;
     overflow: hidden;
     position: relative;
     text-align: center;
-    -webkit-box-shadow: 1px 1px 2px #e6e6e6;
-    -moz-box-shadow: 1px 1px 2px #e6e6e6;
-    box-shadow: 1px 1px 2px #e6e6e6;
+    -webkit-box-shadow: 1px 1px 2px #DBA901;
+    -moz-box-shadow: 1px 1px 2px #DBA901;
+    box-shadow: 1px 1px 2px #DBA901;
     cursor: default;
-    background: #fff;
+    background: #DBA901;
     animation-name: example;
     animation-duration: 2s;
     animation-delay: 1s;
@@ -91,18 +101,21 @@ width: 300px;
     height: 130px;
     margin: 10px;
     float: left;
-    border: 10px solid #fff;
+    border: 10px solid #E6E6E6;
     overflow: hidden;
     position: relative;
     text-align: center;
-    -webkit-box-shadow: 1px 1px 2px #e6e6e6;
-    -moz-box-shadow: 1px 1px 2px #e6e6e6;
-    box-shadow: 1px 1px 2px #e6e6e6;
+    -webkit-box-shadow: 1px 1px 2px  #610B38;
+    -moz-box-shadow: 1px 1px 2px  #610B38;
+    box-shadow: 1px 1px 2px  #610B38;
     cursor: default;
     background: #E6E6E6;
     animation-name: example;
     animation-duration: 2s;
     animation-delay: 1s;
+    background-image: url(../img/art_page_2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     
     
 }
@@ -112,15 +125,15 @@ width: 300px;
     height: 130px;
     margin: 10px;
     float: left;
-    border: 10px solid #fff;
+    border: 10px solid #610B38;
     overflow: hidden;
     position: relative;
     text-align: center;
-    -webkit-box-shadow: 1px 1px 2px #e6e6e6;
-    -moz-box-shadow: 1px 1px 2px #e6e6e6;
-    box-shadow: 1px 1px 2px #e6e6e6;
+    -webkit-box-shadow: 1px 1px 2px  #610B38;
+    -moz-box-shadow: 1px 1px 2px  #610B38;
+    box-shadow: 1px 1px 2px  #610B38;
     cursor: default;
-    background: #D8D8D8;
+    background: #610B38;
         
     animation-name: example;
     animation-duration: 2s;
