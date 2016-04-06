@@ -15,9 +15,8 @@ body {
 
 .img_box {
     background-image: url(../img/wood-wall-1.jpg);
-    width:100%;
-    min-height:600px;
-    background: cover;
+    min-height:500px;
+    background-size: cover;
     background-repeat: no-repeat;
     
 }
@@ -43,10 +42,9 @@ h2 {
 }
 
  h1 {
-    text-align: center;
     font: normal 56px 'Bree Serif', sans-serif;
     color: #DBA901;
-    padding: 50px 0 30px;
+    padding: 50px;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
 }
    
@@ -72,9 +70,9 @@ h6 {
     font-family: monospace;
 }
 
-.nav_shav a {
+.nav-stacked a {
     border: 2px black solid;
-    border: hidden;
+    border:
     width: 178px;
     padding:15%;
     text-align: center;
