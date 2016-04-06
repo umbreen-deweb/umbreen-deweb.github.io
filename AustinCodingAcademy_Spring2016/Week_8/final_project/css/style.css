@@ -15,7 +15,8 @@ body {
 
 .img_box {
     background-image: url(../img/wood-wall-1.jpg);
-    padding-bottom: 45%;
+    width:50%;
+    max-height: inherit;
     background: cover;
     background-repeat: no-repeat;
     
