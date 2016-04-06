@@ -53,8 +53,8 @@ a {
     font: normal 6px 'Bree Serif', sans-serif;
     color: #DBA901;
     float: right;
-    font-size: 20px;
-    padding-right: 5%;
+    font-size: 25px;
+    padding: 5%;
     text-decoration: none;
    
 }
@@ -71,9 +71,9 @@ h6 {
 }
 
 .nav-stacked a {
-    border: 2px black solid;
-    border:
-    width: 178px;
+    border: 5px white solid;
+    border:hidden;
+    width: 278px;
     padding:15%;
     text-align: center;
     font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
