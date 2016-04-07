@@ -42,7 +42,8 @@ h2 {
 }
 
  h1 {
-    font: normal 56px 'Bree Serif', sans-serif;
+/*    font: normal 56px 'Bree Serif', sans-serif;*/
+    font-family: 'Jura', sans-serif;
     color: #DBA901;
     padding: 50px;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
