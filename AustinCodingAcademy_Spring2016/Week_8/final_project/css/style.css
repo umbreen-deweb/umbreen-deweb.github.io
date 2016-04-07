@@ -14,8 +14,9 @@ body {
 */
 
 .img_box {
-    background-image: url(../img/wood-wall-2.jpg);
+    background-image: url(../img/under-water-art.jpg);
     min-height:500px;
+    width:100%;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -23,6 +24,7 @@ body {
 img {
     width: 100%;
     min-height: 600px;
+    
 }
 
 /*
