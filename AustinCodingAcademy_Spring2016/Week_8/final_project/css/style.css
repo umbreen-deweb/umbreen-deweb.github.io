@@ -41,20 +41,16 @@ h2 {
     color: #fff;
 }
 
+/*
  h1 {
-/*    font: normal 56px 'Bree Serif', sans-serif;*/
+    font: normal 56px 'Bree Serif', sans-serif;
     font-family: 'Jura', sans-serif;
     color: #DBA901;
     padding: 20px;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
 }
+*/
    
-h1 p {
-    font-family: 'Jura', sans-serif;
-    color: #DBA901;
-    padding: 50px;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
-}
 
 a:hover {
     font-size: 20px;
@@ -63,7 +59,7 @@ a:hover {
 
 h6 {
     padding: 2% 3% 3% 5%;
-    color:#DBA901;
+    color:white;
 /*     font-family: 'Montserrat', sans-serif;*/
     font-family: 'Jura', sans-serif;
     font-weight: 400;
