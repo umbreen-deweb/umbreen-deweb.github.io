@@ -114,6 +114,7 @@ h6 {
     box-shadow: 1px 1px 2px  #A4A4A4;
     cursor: default;
     background: #A4A4A4;
+    
     animation-name: example;
     animation-duration: 4s;
     animation-delay: 1s;
@@ -136,6 +137,7 @@ h6 {
     animation-name: example;
     animation-duration: 4s;
     animation-delay: 1s;
+    
     background-image: url(../img/art_page_2.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -164,26 +166,7 @@ h6 {
     
 }
 
-/*
-.about_me {
-    width: 100%;
-    height: 130px;
-    margin: 10px;
-    float: left;
-    border: 10px solid #610B38;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    -webkit-box-shadow: 1px 1px 2px  #610B38;
-    -moz-box-shadow: 1px 1px 2px  #610B38;
-    box-shadow: 1px 1px 2px  #610B38;
-    cursor: default;
-    background: #610B38;
-        
-    animation-name: house;
-    animation-duration: 4s;
-    animation-delay: 1s;
-*/
+
 }
 @keyframes example {
     0%   {background-color:#A4A4A4; left:0px;}
