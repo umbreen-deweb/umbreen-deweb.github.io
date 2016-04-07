@@ -14,7 +14,7 @@ body {
 */
 
 .img_box {
-    background-image: url(../img/wood-wall-1.jpg);
+    background-image: url(../img/wood-wall-2.jpg);
     min-height:500px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -61,7 +61,7 @@ a:hover {
 
 h6 {
     padding: 2% 3% 3% 5%;
-    color:white;
+    color:#DBA901;
 /*     font-family: 'Montserrat', sans-serif;*/
     font-family: 'Jura', sans-serif;
     font-weight: 400;
