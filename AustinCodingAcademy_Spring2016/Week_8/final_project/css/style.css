@@ -18,7 +18,7 @@ body {
     min-height:500px;
     background-size: cover;
     background-repeat: no-repeat;
-    
+    margin-top: 10%;
 }
 
 img {
@@ -29,14 +29,14 @@ img {
 h2 {
     font: normal 28px 'Rochester', cursive;
     text-align: center;
-    padding: 5px;
+    padding: 15px;
     background-color: #3a3a3b;
     box-shadow: 0 1px 2px #888;
     border: 1px solid #333;
     position: absolute;
     top: 0;
-    left: 50%;
-    width: 160px;
+    left: 10%;
+    width: 100%;
     margin-left: -80px;
     color: #fff;
 }
@@ -45,11 +45,16 @@ h2 {
 /*    font: normal 56px 'Bree Serif', sans-serif;*/
     font-family: 'Jura', sans-serif;
     color: #DBA901;
-    padding: 50px;
+    padding: 20px;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
 }
    
-
+h1 p {
+    font-family: 'Jura', sans-serif;
+    color: #DBA901;
+    padding: 50px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+}
 
 a:hover {
     font-size: 20px;
@@ -67,10 +72,11 @@ h6 {
 }
 
 .nav-stacked a {
+    margin-top: 10%;
     border: 5px white solid;
     border:hidden;
     width: 278px;
-    padding:15%;
+    padding:18%;
     text-align: center;
      font-family: 'Jura', sans-serif;
     font-weight: 400;
@@ -82,19 +88,19 @@ h6 {
 }
 
 .web{
-width: 100%;
+    width: 100%;
     height: 130px;
     margin: 10px;
     float: left;
-    border: 10px solid #DBA901;
+    border: 10px solid  #A4A4A4;
     overflow: hidden;
     position: relative;
     text-align: center;
-    -webkit-box-shadow: 1px 1px 2px #DBA901;
-    -moz-box-shadow: 1px 1px 2px #DBA901;
-    box-shadow: 1px 1px 2px #DBA901;
+    -webkit-box-shadow: 1px 1px 2px  #A4A4A4;
+    -moz-box-shadow: 1px 1px 2px  #A4A4A4;
+    box-shadow: 1px 1px 2px  #A4A4A4;
     cursor: default;
-    background: #DBA901;
+    background: #A4A4A4;
     animation-name: example;
     animation-duration: 4s;
     animation-delay: 1s;
@@ -139,18 +145,27 @@ width: 100%;
     cursor: default;
     background: #610B38;
         
-    animation-name: example;
+    animation-name: house;
     animation-duration: 4s;
     animation-delay: 1s;
     
 }
 
 @keyframes example {
-    0%   {background-color:#DBA901; left:0px;}
+    0%   {background-color:#A4A4A4; left:0px;}
     50%  {background-color:#A4A4A4; left:200px;}
-    100% {background-color: #DBA901; left:0px;}
+    100% {background-color: #A4A4A4; left:0px;}
+}
+
+@keyframes house {
+    0%   {background-color:#A4A4A4; left:0px;}
+    50%  {background-color:#A4A4A4; left:200px;}
+    100% {background-color: #610B38; left:0px;}
 }
 
 
-
+p {
+    color:white;
+    margin: 10%;
+}
 
