@@ -47,14 +47,25 @@ h2 {
  h1 {
 /*    font: normal 56px 'Bree Serif', sans-serif;*/
 /*    font-family: 'Jura', sans-serif;*/
-     font-family: 'Muli', sans-serif;
+/*     font-family: 'Muli', sans-serif;*/
+     font-family: 'Special Elite', cursive;
      font-size: 45px;
     color: #DBA901;
-    padding: 10px;
+    padding: 3% 0 3% 5%;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+     
 }
 
+p {
+/*    font-family: 'Muli', sans-serif;*/
+    font-family: 'Special Elite', cursive;
+     font-size: 21px;
+/*    color: #DBA901;  */
+    color:white;
+    padding:1% 0;
+    letter-spacing: 2px;
    
+}
 
 a:hover {
     font-size: 20px;
@@ -77,13 +88,14 @@ h6 {
     border: 5px white solid;
     border:hidden;
     width: 100%;
-    padding:18%;
+    padding:19%;
     text-align: center;
-     font-family: 'Muli', sans-serif;
+    font-family: 'Special Elite', cursive;
+/*     font-family: 'Muli', sans-serif;*/
 /*     font-family: 'Jura', sans-serif;*/
     font-weight: 400;
 /*    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;*/
-    font-size: 16px;
+    font-size: 18px;
     color: white;
     text-decoration:none;
     
@@ -166,8 +178,4 @@ h6 {
 }
 
 
-p {
-    color:white;
-    margin: 10%;
-}
 
