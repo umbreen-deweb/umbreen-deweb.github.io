@@ -18,7 +18,7 @@ body {
     min-height:500px;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 10%;
+    margin-top: 2%;
 }
 
 img {
@@ -26,6 +26,7 @@ img {
     min-height: 600px;
 }
 
+/*
 h2 {
     font: normal 28px 'Rochester', cursive;
     text-align: center;
@@ -41,15 +42,16 @@ h2 {
     color: #fff;
 }
 
-/*
+*/
+
  h1 {
     font: normal 56px 'Bree Serif', sans-serif;
     font-family: 'Jura', sans-serif;
     color: #DBA901;
-    padding: 20px;
+    padding: 10px;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
 }
-*/
+
    
 
 a:hover {
@@ -68,7 +70,7 @@ h6 {
 }
 
 .nav-stacked a {
-    margin-top: 10%;
+   margin-top: 5%;
     border: 5px white solid;
     border:hidden;
     width: 278px;
