@@ -115,7 +115,7 @@ h6 {
     cursor: default;
     background: #A4A4A4;
     
-    animation-name: example;
+    animation-name: dev;
     animation-duration: 4s;
     animation-delay: 1s;
 
@@ -136,7 +136,7 @@ h6 {
     cursor: default;
     background: #E6E6E6;
     
-    animation-name: example;
+    animation-name: house;
     animation-duration: 4s;
     animation-delay: 1s;
     
@@ -170,10 +170,11 @@ h6 {
 
 
 }
-@keyframes example {
+
+@keyframes  {
     0%   {background-color:#A4A4A4; left:0px;}
     50%  {background-color:#A4A4A4; left:200px;}
-    100% {background-color: #A4A4A4; left:0px;}
+    100% {background-color:#A4A4A4; left:0px;}
 }
 
 @keyframes house {
@@ -182,5 +183,10 @@ h6 {
     100% {background-color: #610B38; left:0px;}
 }
 
+@keyframes dev {
+    0%   {background-color:#A4A4A4; left:0px;}
+    50%  {background-color:#A4A4A4; left:200px;}
+    100% {background-color:#A4A4A4; left:0px;}
+}
 
 
