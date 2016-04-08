@@ -26,6 +26,7 @@ section {
 	background: url(../img/ocean-wallpaper14.jpg) no-repeat bottom center fixed;
     color:#fff;
     background-size:cover;
+    height: 400px;
 }
 
 #footer {
@@ -55,8 +56,10 @@ section {
     color:black;
     padding:1% 0;
     letter-spacing: 2px;
-   
+    
 }
+   
+
 
 
 /* end parallax */
@@ -90,6 +93,11 @@ img {
     width: 100%;
     min-height: 600px;
     
+}
+
+
+h3 {
+    text-align: center;
 }
 
 
