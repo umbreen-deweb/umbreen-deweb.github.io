@@ -81,12 +81,14 @@ body {
 */
 
 .img_box {
-    background-image: url(../img/ocean-wallpaper14.jpg);
+    background-image: url(../img/ocean-new-pic-1.png);
     min-height:500px;
     width:100%;
     background-size: cover;
     background-repeat: no-repeat;
     margin:0;
+    padding:0;
+    
 }
 
 img {
