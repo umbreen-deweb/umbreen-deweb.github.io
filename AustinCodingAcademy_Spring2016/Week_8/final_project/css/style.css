@@ -1,3 +1,56 @@
+.divider {
+    height:20px;
+}
+
+section {
+    height:500px;
+    padding-top:50px;
+    padding-bottom:50px;
+    overflow:auto;
+}
+
+.bg-1 {
+	height: 400px;
+    color:#fff;
+    background-size:cover;
+}
+  
+.bg-2 {
+	background: url('/assets/example/bg_suburb.jpg') no-repeat top center fixed;
+    color:#fff;
+    background-size:cover;
+}
+
+.bg-3 {
+	background: url('/assets/example/bg_blueplane.jpg') no-repeat bottom center fixed;
+    color:#fff;
+    background-size:cover;
+}
+
+#footer {
+    height: 60px;
+    background-color:#585858;
+    margin-top:50px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+#footer a {
+  color:#efefef;
+}
+
+
+.lead {
+    font-family: sans-serif;
+    line-height: 2;
+    font-size: 15px;
+}
+
+
+/* end parallax */
+
+
+
 body {
     margin:0;
     background-color: black;
@@ -190,5 +243,6 @@ h6 {
     50%  {background-color:#A4A4A4; left:200px;}
     100% {background-color:#A4A4A4; left:0px;}
 }
+
 
 
