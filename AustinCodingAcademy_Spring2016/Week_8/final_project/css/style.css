@@ -67,7 +67,6 @@ section {
 
 
 body {
-    margin:0;
     background-color: black;
 }
 
@@ -82,11 +81,12 @@ body {
 */
 
 .img_box {
-    background-image: url(../img/wood-log-1.jpg);
+    background-image: url(../img/ocean-wallpaper14.jpg);
     min-height:500px;
     width:100%;
     background-size: cover;
     background-repeat: no-repeat;
+    margin:0;
 }
 
 img {
@@ -98,6 +98,10 @@ img {
 
 h3 {
     text-align: center;
+}
+
+.panel-body img {
+    height: 100px;
 }
 
 
