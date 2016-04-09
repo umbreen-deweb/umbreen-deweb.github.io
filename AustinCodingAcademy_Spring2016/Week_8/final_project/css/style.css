@@ -16,14 +16,14 @@ section {
 }
   
 .bg-2 {
-	background: url(../img/ocean-wallpaper14.jpg) no-repeat top center fixed;
+	background: url(../img/ocean-pic-2.jpg) no-repeat top center fixed;
     color:#fff;
     background-size:cover;
     height: 400px;
 }
 
 .bg-3 {
-	background: url(../img/ocean-wallpaper14.jpg) no-repeat bottom center fixed;
+	background: url(../img/Smoke-Background-Wallpaper.jpg) no-repeat bottom center fixed;
     color:#fff;
     background-size:cover;
     height: 400px;
@@ -67,11 +67,12 @@ section {
 
 
 body {
-    background-color: black;
+    background-color: white;
 }
 
 .my_header {
-    background-color:black;
+    background-color:white;
+    text-align: center;
 }
 
 /*
@@ -81,8 +82,8 @@ body {
 */
 
 .img_box {
-    background-image: url(../img/ocean-new-pic-1.png);
-    min-height:500px;
+/*    background-image: url(../img/Smoke-Background-Wallpaper.jpg);*/
+    min-height:100px;
     width:100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -100,6 +101,8 @@ img {
 
 h3 {
     text-align: center;
+    margin-top: 5%;
+    color:#3a6d77;
 }
 
 .panel-body img {
@@ -130,7 +133,7 @@ h2 {
 /*     font-family: 'Muli', sans-serif;*/
      font-family: 'Special Elite', cursive;
      font-size: 45px;
-     color:aliceblue;
+     color:#3a6d77;
 /*    color: #DBA901;*/
     padding: 3% 0 3% 5%;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
@@ -140,16 +143,19 @@ h2 {
 p {
 /*    font-family: 'Muli', sans-serif;*/
     font-family: 'Special Elite', cursive;
-     font-size: 21px;
+     font-size: 25px;
 /*    color: #DBA901;  */
-    color:#a1c7bf;
-    padding:1% 0;
+      color:#a1c7bf;
+/*    color:#3a6d77;*/
+    padding:2%;
+    line-height: 2;
     letter-spacing: 2px;
    
 }
 
 a:hover {
     font-size: 20px;
+   background-image: url(../img/ocean-pic-2.jpg);
 }
  
 
@@ -164,12 +170,11 @@ h6 {
     letter-spacing: 2px;
 }
 
-.nav-stacked a {
-   margin-top: 6%;
+.nav_shav a {
     border: 5px white solid;
     border:hidden;
-    width: 350px;
-    padding:15%;
+    width: 300px;
+    padding:10%;
     text-align: center;
     font-family: 'Special Elite', cursive;
 /*     font-family: 'Muli', sans-serif;*/
@@ -187,18 +192,20 @@ h6 {
     height: 130px;
     margin: 10px;
     float: left;
-    border: 10px solid  #A4A4A4;
+    border: 10px solid  #a1c7bf;
     overflow: hidden;
     position: relative;
     text-align: center;
+/*
     -webkit-box-shadow: 1px 1px 2px  #A4A4A4;
     -moz-box-shadow: 1px 1px 2px  #A4A4A4;
-    box-shadow: 1px 1px 2px  #A4A4A4;
+    box-shadow: 1px 1px 2px  #a1c7bf;
+*/
     cursor: default;
-    background: #A4A4A4;
+    background: #a1c7bf;
     
     animation-name: dev;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-delay: 1s;
 
 }
@@ -219,7 +226,7 @@ h6 {
     background: #E6E6E6;
     
     animation-name: house;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-delay: 1s;
     
     background-image: url(../img/art_page_2.png);
@@ -242,33 +249,26 @@ h6 {
     -moz-box-shadow: 1px 1px 2px  #610B38;
     box-shadow: 1px 1px 2px  #610B38;
     cursor: default;
-    background: #610B38;
+    background: #a1c7bf;
         
     animation-name: house;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-delay: 1s;
     
 }
 
 
 
-
-@keyframes  {
-    0%   {background-color:#A4A4A4; left:0px;}
-    50%  {background-color:#A4A4A4; left:200px;}
-    100% {background-color:#A4A4A4; left:0px;}
-}
-
 @keyframes house {
     0%   {background-color:#A4A4A4; left:0px;}
     50%  {background-color:#A4A4A4; left:200px;}
-    100% {background-color: #610B38; left:0px;}
+    100% {background-color: #a1c7bf; left:0px;}
 }
 
 @keyframes dev {
     0%   {background-color:#A4A4A4; left:0px;}
     50%  {background-color:#A4A4A4; left:200px;}
-    100% {background-color:#A4A4A4; left:0px;}
+    100% {background-color:#a1c7bf; left:0px;}
 }
 
 
