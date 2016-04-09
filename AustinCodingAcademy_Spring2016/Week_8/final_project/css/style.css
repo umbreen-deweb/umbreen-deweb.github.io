@@ -10,23 +10,24 @@ section {
 }
 
 .bg-1 {
-	height: 500px;
+	height: 600px;
     color:#fff;
     background-size:cover;
 }
   
 .bg-2 {
-	background: url(../img/ocean-pic-2.jpg) no-repeat top center fixed;
+	background: url(../img/colorful-smoke.jpg) no-repeat top center fixed;
     color:#fff;
     background-size:cover;
     height: 400px;
 }
 
 .bg-3 {
-	background: url(../img/Smoke-Background-Wallpaper.jpg) no-repeat bottom center fixed;
+	background: url(../img/colorful-smoke.jpg) no-repeat bottom center fixed;
     color:#fff;
     background-size:cover;
     height: 400px;
+    
 }
 
 #footer {
@@ -45,7 +46,7 @@ section {
 .lead {
     font-family: sans-serif;
     line-height: 2;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .bg-2 p {
@@ -64,15 +65,25 @@ section {
 
 /* end parallax */
 
+/*start navbar*/
+
+
+.navbar navbar-default navbar-fixed-top {
+    color: #a1c7bf;
+}
+
+/*end navbar*/
 
 
 body {
-    background-color: white;
+    background-color: #f1f5f8;
 }
 
 .my_header {
     background-color:white;
     text-align: center;
+    padding-top: 7%;
+    background-color: #f1f5f8;
 }
 
 /*
@@ -81,14 +92,17 @@ body {
 }
 */
 
+/*
 .img_box {
-/*    background-image: url(../img/Smoke-Background-Wallpaper.jpg);*/
+    background-image: url(../img/Smoke-Background-Wallpaper.jpg);
     min-height:100px;
     width:100%;
     background-size: cover;
     background-repeat: no-repeat;
     margin:0;
     padding:0;
+    
+*/
     
 }
 
@@ -153,9 +167,17 @@ p {
    
 }
 
-a:hover {
+.art:hover {
     font-size: 20px;
-   background-image: url(../img/ocean-pic-2.jpg);
+   background-image: url(../img/art_page_2.png);
+}
+
+.estate:hover {
+    background-image: url(../img/wood-wall-1.jpg);
+}
+
+.web:hover {
+    background-image: url(../img/custom-coding-programming.jpg);
 }
  
 
@@ -170,11 +192,16 @@ h6 {
     letter-spacing: 2px;
 }
 
+.nav_shav {
+    margin-top: 5%;
+}
+
 .nav_shav a {
     border: 5px white solid;
     border:hidden;
     width: 300px;
-    padding:10%;
+    
+    padding:15%;
     text-align: center;
     font-family: 'Special Elite', cursive;
 /*     font-family: 'Muli', sans-serif;*/
@@ -229,7 +256,7 @@ h6 {
     animation-duration: 3s;
     animation-delay: 1s;
     
-    background-image: url(../img/art_page_2.png);
+    background-image:  url(../img/art_images/pangea2.JPG);
     background-size: cover;
     background-repeat: no-repeat;
     
