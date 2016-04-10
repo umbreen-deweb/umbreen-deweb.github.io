@@ -1,5 +1,5 @@
 .divider {
-    height:20px;
+    height:40px;
 }
 
 section {
@@ -9,24 +9,27 @@ section {
     overflow:auto;
 }
 
-.bg-1 {
-	height: 600px;
+.box-1 {
+	height: 400px;
     color:#fff;
     background-size:cover;
+    padding-top: 10%;
 }
   
 .bg-2 {
-	background: url(../img/colorful-smoke.jpg) no-repeat top center fixed;
+	background: url(../img/ocean-new-pic-1.png) no-repeat top center fixed;
     color:#fff;
     background-size:cover;
     height: 400px;
+    opacity: .6;
 }
 
 .bg-3 {
-	background: url(../img/colorful-smoke.jpg) no-repeat bottom center fixed;
+	background: url(../img/ocean-new-pic-1.png) no-repeat bottom center fixed;
     color:#fff;
     background-size:cover;
-    height: 400px;
+    height: 300px;
+    opacity: .6;
     
 }
 
@@ -44,9 +47,11 @@ section {
 
 
 .lead {
-    font-family: sans-serif;
+   font-family: 'Josefin Sans', sans-serif;
     line-height: 2;
-    font-size: 18px;
+    font-size: 22px;
+    height: 350px;
+    
 }
 
 .bg-2 p {
@@ -149,14 +154,15 @@ h2 {
      font-size: 45px;
      color:#3a6d77;
 /*    color: #DBA901;*/
-    padding: 3% 0 3% 5%;
+    padding: 3% 0 3% 0;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
      
 }
 
 p {
 /*    font-family: 'Muli', sans-serif;*/
-    font-family: 'Special Elite', cursive;
+/*    font-family: 'Special Elite', cursive;*/
+    font-family: 'Josefin Sans', sans-serif;
      font-size: 25px;
 /*    color: #DBA901;  */
       color:#a1c7bf;
@@ -165,6 +171,14 @@ p {
     line-height: 2;
     letter-spacing: 2px;
    
+}
+
+.panel-default > .panel-heading {
+    background-color: #f1f5f8;
+}
+
+.three_box ul{
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .art:hover {
@@ -232,7 +246,7 @@ h6 {
     background: #a1c7bf;
     
     animation-name: dev;
-    animation-duration: 3s;
+    animation-duration: 0s;
     animation-delay: 1s;
 
 }
@@ -253,7 +267,7 @@ h6 {
     background: #E6E6E6;
     
     animation-name: house;
-    animation-duration: 3s;
+    animation-duration: 0s;
     animation-delay: 1s;
     
     background-image:  url(../img/art_images/pangea2.JPG);
@@ -279,7 +293,7 @@ h6 {
     background: #a1c7bf;
         
     animation-name: house;
-    animation-duration: 3s;
+    animation-duration: 0s;
     animation-delay: 1s;
     
 }
