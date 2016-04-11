@@ -1,0 +1,308 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 90%;
+    margin-left: 5%;
+    padding-bottom: 20px;
+}
+nav {
+    padding: 2% 1%;
+    width: 98%; 
+}
+
+nav li {
+    display: inline-block;
+    
+}
+
+nav ul {
+  float: right;
+    
+}
+
+h1 {
+    font-size: 25px; 
+    float:left;
+}
+
+ h2 {
+
+     font-family: 'Special Elite', cursive;
+     font-size: 45px;
+     color:#3a6d77;
+    padding: 3% 0 3% 0;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+     
+}
+
+main {
+    background-image: url(../img/wine-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+
+main > div {
+    background-color: rgba(0,0,0, .8);
+    padding: 100px 0;   
+}
+
+main p {
+    font-size: 10px;
+    padding-top: 8%;
+}
+
+/* end of header and top box*/
+
+
+a {
+    text-decoration: none;
+    color: #848484;
+   margin-left: 9px;
+    font-size: .75em;
+    
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+
+.two_boxes {
+    width: 100%;
+   
+}
+
+.box1{
+    width: 48%;
+    float: left;
+    text-align: center;
+    padding: 9% 0 0 1%;
+    margin-left: 1%;
+    
+    
+}
+
+/* second box under header and stuff*/
+
+.two_boxes div img {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.box1 > p { 
+color: grey;
+font-size: 14px;
+    margin-top: 3%;
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    line-height: 2;
+    
+}
+
+.box3 {
+    margin-top: 55%;
+    background-image:url(../img/wine13.jpg);
+    text-align: center;
+    color: white;
+}
+
+.box3 > div {
+    background-color: rgba(0,0,0, .8);
+    background: cover;
+    padding: 100px 0;
+    padding-bottom: 4%;
+    padding-top: 4%;
+}
+
+h4 {
+    
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+.box3 p {
+    font-size: 11px;
+    padding: 3%;
+}
+
+/* last section*/
+
+/*
+.lastbox {
+    width:100%;
+    text-align: center;
+}
+
+.lastbox > div {
+    width:30%;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.lastbox img {
+    width:35%;
+}
+
+.lastbox h5 {
+    font-family: cursive;
+    font-weight: bolder;
+    margin:-1%;
+}
+
+.lastbox p {
+    font-family: sans-serif;
+    font-size: 10px;
+    color:grey;
+    width:70%;
+    margin-left: 14%;   
+}
+
+.lastbox a {
+    background-color: #4B8A08;
+    color: white;
+    font-size: 10px;
+    font-family: sans-serif;
+    width:30%;
+    padding:2%;
+    margin-left: -1%;
+}
+*/
+
+
+
+/* nav shav fancy business*/
+.side_box {
+    width: 50%;
+    height: 500px;
+    float: right;
+    background-color: white;
+}
+
+.side_box a {
+    border: 5px white solid;
+    border:hidden;
+    width: 200px;
+    height: 100px;
+    padding:12%;
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+/*     font-family: 'Muli', sans-serif;*/
+/*     font-family: 'Jura', sans-serif;*/
+    font-weight: 400;
+/*    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;*/
+    font-size: 18px;
+    color: white;
+    text-decoration:none;
+    
+}
+
+.side_box div {
+    width: 80%;
+    height: 200px;
+}
+
+.art:hover {
+    font-size: 20px;
+   background-image: url(../img/art_page_2.png);
+}
+
+.estate:hover {
+    background-image: url(../img/wood-wall-1.jpg);
+}
+
+.web:hover {
+    background-image: url(../img/custom-coding-programming.jpg);
+}
+
+.web{
+    width: 30%;
+    float: right;
+    height: 130px;
+    margin: 5px;
+    
+    border: 10px solid  #a1c7bf;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor:cell;
+    background: #a1c7bf;
+    
+    animation-name: dev;
+    animation-duration: 0s;
+    animation-delay: 1s;
+
+}
+
+.art {
+    width: 100%;
+    float: right;
+    height: 130px;
+    margin: 5px;
+   
+    border: 10px solid #E6E6E6;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    -webkit-box-shadow: 1px 1px 2px  #610B38;
+    -moz-box-shadow: 1px 1px 2px  #610B38;
+    box-shadow: 1px 1px 2px  #610B38;
+    cursor: default;
+    background-color: #FFBF00;
+    
+    animation-name: house;
+    animation-duration: 0s;
+    animation-delay: 1s;
+    
+    background-image:  url(../img/art_images/pangea2.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.estate {
+    width: 50%;
+    float: right;
+    height: 130px;
+    margin: 5px;
+    
+    border: 10px solid #610B38;
+    overflow: hidden;
+    
+    text-align: center;
+    -webkit-box-shadow: 1px 1px 2px  #610B38;
+    -moz-box-shadow: 1px 1px 2px  #610B38;
+    box-shadow: 1px 1px 2px  #610B38;
+    cursor: default;
+    background: #a1c7bf;
+        
+    animation-name: house;
+    animation-duration: 0s;
+    animation-delay: 1s;
+    
+}
+
+
+
+@keyframes house {
+    0%   {background-color:#A4A4A4; left:0px;}
+    50%  {background-color:#A4A4A4; left:200px;}
+    100% {background-color: #a1c7bf; left:0px;}
+}
+
+@keyframes dev {
+    0%   {background-color:#A4A4A4; left:0px;}
+    50%  {background-color:#A4A4A4; left:200px;}
+    100% {background-color:#a1c7bf; left:0px;}
+}
+
