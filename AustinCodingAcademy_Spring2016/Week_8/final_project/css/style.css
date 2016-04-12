@@ -7,7 +7,9 @@
 
 /* parallax styling */
 
-
+.divider_quote {
+    height: 100px;
+}
 
 .divider {
     height:70px;
@@ -183,15 +185,6 @@ h2 {
 
 
 
-
-.panel-default > .panel-heading {
-    background-color: #f1f5f8;
-}
-
-.three_box ul{
-    font-family: 'Josefin Sans', sans-serif;
-}
-
 .art:hover {
     font-size: 20px;
    background-image: url(../img/art_page_2.png);
@@ -218,7 +211,7 @@ h6 {
 }
 
 .nav_shav div {
-    margin-top: 2%;
+    margin-top: 6%;
     text-align: center;
     
 }
