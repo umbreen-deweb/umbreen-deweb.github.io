@@ -16,6 +16,10 @@ section {
     padding-top: 10%;
 }
   
+.box-1 h1 {
+    color: white;
+}
+
 .bg-2 {
 	background: url(../img/ocean-new-pic-1.png) no-repeat top center fixed;
     color:#fff;
@@ -96,6 +100,12 @@ body {
     text-align: center;
     padding-top: 7%;
     background-color: #f1f5f8;
+   
+}
+
+h1 {
+     font-family: 'Quicksand', sans-serif;
+    color: #022028;
 }
 
 /*
