@@ -1,3 +1,14 @@
+.nav navbar-nav {
+   font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* parallax styling */
+
+
+
 .divider {
     height:70px;
 }
@@ -25,7 +36,18 @@ section {
     color:#fff;
     background-size:cover;
     height: 400px;
-    opacity: .6;
+/*    opacity: .;*/
+}
+
+.bg-2 p {
+/*    font-family: 'Muli', sans-serif;*/
+    font-family: 'Special Elite', cursive;
+     font-size: 21px;
+/*    color: #DBA901;  */
+    color:black;
+    padding:1% 0;
+    letter-spacing: 2px;
+    
 }
 
 .bg-3 {
@@ -33,25 +55,11 @@ section {
     color:#fff;
     background-size:cover;
     height: 300px;
-    opacity: .6;
+/*    opacity: .6;*/
     
 }
 
-.bg-3 h1 p {
-    color:white;
-}
 
-#footer {
-    height: 60px;
-    background-color:#585858;
-    margin-top:50px;
-    padding-top:20px;
-    padding-bottom:20px;
-}
-
-#footer a {
-  color:#efefef;
-}
 
 
 .lead {
@@ -63,21 +71,13 @@ section {
     
 }
 
-.bg-2 p {
-/*    font-family: 'Muli', sans-serif;*/
-    font-family: 'Special Elite', cursive;
-     font-size: 21px;
-/*    color: #DBA901;  */
-    color:white;
-    padding:1% 0;
-    letter-spacing: 2px;
-    
-}
-   
-
 
 
 /* end parallax */
+
+
+
+
 
 /*start navbar*/
 
@@ -95,6 +95,9 @@ body {
 /*    background-color: #f1f5f8;*/
 }
 
+
+/*header */
+
 .my_header {
     background-color:white;
     text-align: center;
@@ -104,63 +107,43 @@ body {
 }
 
 h1 {
-     font-family: 'Quicksand', sans-serif;
+/*     font-family: 'Quicksand', sans-serif;*/
     color: #022028;
+      font-family: 'Josefin Sans', sans-serif;
 }
 
-/*
-.big_box {
-    background-image: url(../img/wood-wall-1.jpg);
-}
-*/
-
-/*
-.img_box {
-    background-image: url(../img/Smoke-Background-Wallpaper.jpg);
-    min-height:100px;
-    width:100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin:0;
-    padding:0;
+/* SKILLS AND EDUCATION BOX */
     
-*/
-    
+
+.panel-heading { 
+text-align: center;
 }
 
-img {
-    width: 100%;
-    min-height: 600px;
-    
+.panel-heading li {
+    list-style: none;
 }
-
 
 h3 {
     text-align: center;
     margin-top: 5%;
     color:#3a6d77;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .panel-body img {
-    height: 100px;
+    height: 200px;
 }
 
-
-h2 {
-    font: normal 28px 'Rochester', cursive;
-    text-align: center;
-    padding: 15px;
-    background-color: #3a3a3b;
-    box-shadow: 0 1px 2px #888;
-    border: 1px solid #333;
-    position: absolute;
-    top: 0;
-    left: 10%;
-    width: 94%;
-    margin-left: -80px;
-    color: #fff;
+.skills {
+    margin-left: 3%;
+    
 }
 
+.edu {
+    margin-left: 8%;
+}
+
+/* END OF SKILLS AND EDUCATION BOX */
 
 
 
@@ -178,6 +161,28 @@ p {
     letter-spacing: 2px;
    
 }
+/*
+h2 {
+    font: normal 28px 'Rochester', cursive;
+    text-align: center;
+    padding: 15px;
+    background-color: #3a3a3b;
+    box-shadow: 0 1px 2px #888;
+    border: 1px solid #333;
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 94%;
+    margin-left: -80px;
+    color: #fff;
+}
+*/
+
+
+
+
+
+
 
 .panel-default > .panel-heading {
     background-color: #f1f5f8;
