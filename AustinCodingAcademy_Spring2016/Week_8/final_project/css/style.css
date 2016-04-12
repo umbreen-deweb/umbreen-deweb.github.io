@@ -51,7 +51,7 @@ section {
 }
 
 .bg-3 {
-	background: url(../img/ocean-new-pic-1.png) no-repeat bottom center fixed;
+	background-color: white;
     color:#fff;
     background-size:cover;
     height: 300px;
@@ -101,7 +101,7 @@ body {
 .my_header {
     background-color:white;
     text-align: center;
-    padding-top: 7%;
+    padding-top: 10%;
     background-color: #f1f5f8;
    
 }
@@ -334,5 +334,5 @@ h6 {
 
 
 .footer_lead {
-    color: white;
+    color: black;
 }
