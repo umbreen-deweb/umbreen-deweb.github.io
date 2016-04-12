@@ -33,6 +33,10 @@ section {
     
 }
 
+.bg-3 h1 p {
+    color:white;
+}
+
 #footer {
     height: 60px;
     background-color:#585858;
@@ -51,6 +55,7 @@ section {
     line-height: 2;
     font-size: 22px;
     height: 350px;
+   
     
 }
 
@@ -59,7 +64,7 @@ section {
     font-family: 'Special Elite', cursive;
      font-size: 21px;
 /*    color: #DBA901;  */
-    color:black;
+    color:white;
     padding:1% 0;
     letter-spacing: 2px;
     
@@ -81,7 +86,9 @@ section {
 
 
 body {
-    background-color: #f1f5f8;
+    
+    background-color: black;
+/*    background-color: #f1f5f8;*/
 }
 
 .my_header {
@@ -195,8 +202,10 @@ h6 {
     letter-spacing: 2px;
 }
 
-.nav_shav {
-    margin-top: 5%;
+.nav_shav div {
+    margin-top: 2%;
+    text-align: center;
+    
 }
 
 .nav_shav a {
@@ -204,7 +213,7 @@ h6 {
     border:hidden;
     width: 300px;
     
-    padding:12%;
+    padding:12% 0 0 0;
     text-align: center;
     font-family: 'Special Elite', cursive;
 /*     font-family: 'Muli', sans-serif;*/
@@ -309,4 +318,6 @@ h6 {
 }
 
 
-
+.footer_lead {
+    color: white;
+}
