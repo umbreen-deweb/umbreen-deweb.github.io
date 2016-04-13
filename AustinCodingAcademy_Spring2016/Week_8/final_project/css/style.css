@@ -54,10 +54,9 @@ section {
 
 .bg-3 {
 	background-color: white;
-    color:#fff;
-    background-size:cover;
-    height: 300px;
-/*    opacity: .6;*/
+    color:black;
+    background-image: url(../img/ocean-new-pic-1.png);
+    margin-top:-5%;
     
 }
 
@@ -110,10 +109,20 @@ body {
 
 h1 {
 /*     font-family: 'Quicksand', sans-serif;*/
-    color: #022028;
+    color: #1c4c55;
       font-family: 'Josefin Sans', sans-serif;
 }
+/* second heading in the top box by my name */
 
+h4 {
+    color: #326d79;
+    font-family: 'Josefin Sans', sans-serif;
+     font-size: 25px;
+    letter-spacing: 2px;
+    padding: 3%;
+    line-height: 2;
+   
+}
 /* SKILLS AND EDUCATION BOX */
     
 
