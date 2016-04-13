@@ -58,6 +58,7 @@ section {
 	background-color: white;
     color:black;
     background-image: url(../img/ocean-new-pic-1.png);
+    background-size: cover;
     margin-top:-5%;
     
 }
