@@ -1,9 +1,17 @@
 .my_heading {
     color:#030b2e;
+/*    color:#bbbfc5;*/
+    font-family: 'Poiret One', cursive;
+    font-weight: 300;
+    font-size: 4em;
 }
 
 .my_add {
-    color:#030b2e;
+/*    color:#030b2e;*/
+/*    color:#bbbfc5;*/
+    color:#777;
+    font-family: 'Poiret One', cursive;
+    text-transform: lowercase;
 }
 
 p {
@@ -12,4 +20,10 @@ p {
     letter-spacing: 1px;
     text-align: center;
 
+}
+
+.navbar-nav>li>a {
+    
+    font-family: 'Poiret One', cursive;
+   
 }
