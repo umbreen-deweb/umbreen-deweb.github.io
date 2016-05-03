@@ -1,0 +1,342 @@
+
+
+.nav navbar-nav {
+   font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* parallax styling */
+
+.divider_quote {
+    height: 100px;
+}
+
+.divider {
+    height:70px;
+}
+
+section {
+    height:500px;
+    padding-top:50px;
+    padding-bottom:50px;
+    overflow:auto;
+}
+
+.box-1 {
+	height: 400px;
+    color:#fff;
+    background-size:cover;
+    padding-top: 10%;
+}
+  
+.box-1 h1 {
+    color: white;
+}
+
+.bg-2 {
+	background: url(../img/ocean-new-pic-1.png) no-repeat top center fixed;
+    color:#fff;
+    background-size:cover;
+    height: 400px;
+/*    opacity: .;*/
+}
+
+.bg-2 p {
+/*    font-family: 'Muli', sans-serif;*/
+    font-family: 'Special Elite', cursive;
+     font-size: 21px;
+/*    color: #DBA901;  */
+    color:black;
+    padding:1% 0;
+    letter-spacing: 2px;
+    
+}
+
+.bg-3 {
+	background-color: white;
+    color:black;
+    background-image: url(../img/ocean-new-pic-1.png);
+    background-size: cover;
+    margin-top:-5%;
+    
+}
+
+
+
+
+.lead {
+   font-family: 'Josefin Sans', sans-serif;
+    line-height: 2;
+    font-size: 22px;
+    height: 350px;
+   
+    
+}
+
+
+
+/* end parallax */
+
+
+
+
+
+/*start navbar*/
+
+
+.navbar navbar-default navbar-fixed-top {
+    color: #a1c7bf;
+}
+
+/*end navbar*/
+
+
+body {
+    
+    background-color: black;
+/*    background-color: #f1f5f8;*/
+}
+
+
+/*header */
+
+.my_header {
+    background-color:white;
+    text-align: center;
+    padding-top: 10%;
+    background-color: #f1f5f8;
+   
+}
+
+h1 {
+/*     font-family: 'Quicksand', sans-serif;*/
+    color: #1c4c55;
+      font-family: 'Josefin Sans', sans-serif;
+}
+/* second heading in the top box by my name */
+
+h4 {
+    color: #326d79;
+    font-family: 'Josefin Sans', sans-serif;
+     font-size: 25px;
+    letter-spacing: 2px;
+    padding: 3%;
+    line-height: 2;
+   
+}
+/* SKILLS AND EDUCATION BOX */
+    
+
+.panel-heading { 
+text-align: center;
+}
+
+.panel-heading li {
+    list-style: none;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 5%;
+    color:#3a6d77;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.panel-body img {
+    height: 200px;
+}
+
+.skills {
+    margin-left: 3%;
+    
+}
+
+.edu {
+    margin-left: 8%;
+}
+
+/* END OF SKILLS AND EDUCATION BOX */
+
+
+
+
+p {
+/*    font-family: 'Muli', sans-serif;*/
+/*    font-family: 'Special Elite', cursive;*/
+    font-family: 'Josefin Sans', sans-serif;
+     font-size: 25px;
+/*    color: #DBA901;  */
+      color:#a1c7bf;
+/*    color:#3a6d77;*/
+    padding:2%;
+    line-height: 2;
+    letter-spacing: 2px;
+   
+}
+/*
+h2 {
+    font: normal 28px 'Rochester', cursive;
+    text-align: center;
+    padding: 15px;
+    background-color: #3a3a3b;
+    box-shadow: 0 1px 2px #888;
+    border: 1px solid #333;
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 94%;
+    margin-left: -80px;
+    color: #fff;
+}
+*/
+
+
+
+
+
+
+.art:hover {
+    font-size: 20px;
+   background-image: url(../img/art_page_2.png);
+}
+
+.estate:hover {
+    background-image: url(../img/wood-wall-1.jpg);
+}
+
+.web:hover {
+    background-image: url(../img/custom-coding-programming.jpg);
+}
+ 
+
+h6 {
+    padding: 2% 3% 3% 5%;
+    color:#DBA901;
+     font-family: 'Muli', sans-serif;
+/*     font-family: 'Montserrat', sans-serif;*/
+/*    font-family: 'Jura', sans-serif;*/
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+.nav_shav div {
+ margin-top: 6%;
+   
+    
+}
+
+.nav_shav a {
+    border: 5px white solid;
+    border:hidden;
+    width: 300px;
+    padding:12% 0 0 0;
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+/*     font-family: 'Muli', sans-serif;*/
+/*     font-family: 'Jura', sans-serif;*/
+    font-weight: 400;
+/*    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;*/
+    font-size: 18px;
+    color: white;
+    text-decoration:none;
+    
+}
+
+.footer_lead {
+    color:black;
+     font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.web{
+    width: 100%;
+    height: 130px;
+    margin: 10px;
+    float: left;
+    border: 10px solid  #a1c7bf;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+/*
+    -webkit-box-shadow: 1px 1px 2px  #A4A4A4;
+    -moz-box-shadow: 1px 1px 2px  #A4A4A4;
+    box-shadow: 1px 1px 2px  #a1c7bf;
+*/
+    cursor: default;
+    background: #a1c7bf;
+    
+    animation-name: dev;
+    animation-duration: 0s;
+    animation-delay: 1s;
+
+}
+
+.art {
+    width: 100%;
+    height: 130px;
+    margin: 10px;
+    float: left;
+    border: 10px solid #E6E6E6;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    -webkit-box-shadow: 1px 1px 2px  #610B38;
+    -moz-box-shadow: 1px 1px 2px  #610B38;
+    box-shadow: 1px 1px 2px  #610B38;
+    cursor: default;
+    background: #E6E6E6;
+    
+    animation-name: house;
+    animation-duration: 0s;
+    animation-delay: 1s;
+    
+    background-image:  url(../img/art_images/pangea2.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.estate {
+    width: 100%;
+    height: 130px;
+    margin: 10px;
+    float: left;
+    border: 10px solid #610B38;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    -webkit-box-shadow: 1px 1px 2px  #610B38;
+    -moz-box-shadow: 1px 1px 2px  #610B38;
+    box-shadow: 1px 1px 2px  #610B38;
+    cursor: default;
+    background: #a1c7bf;
+        
+    animation-name: house;
+    animation-duration: 0s;
+    animation-delay: 1s;
+    
+}
+
+
+
+@keyframes house {
+    0%   {background-color:#A4A4A4; left:0px;}
+    50%  {background-color:#A4A4A4; left:200px;}
+    100% {background-color: #a1c7bf; left:0px;}
+}
+
+@keyframes dev {
+    0%   {background-color:#A4A4A4; left:0px;}
+    50%  {background-color:#A4A4A4; left:200px;}
+    100% {background-color:#a1c7bf; left:0px;}
+}
+
+
+.footer_lead {
+    color: black;
+}

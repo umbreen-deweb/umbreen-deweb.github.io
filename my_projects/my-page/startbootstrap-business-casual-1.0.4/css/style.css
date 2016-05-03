@@ -1,18 +1,22 @@
 .my_heading {
 /*    color:#030b2e;*/
 /*    color:#bbbfc5;*/
-    color:#777;
+/*    color:#777;*/
     font-family: 'Poiret One', cursive;
-    font-weight: 300;
-    font-size: 4em;
+    font-size: 6em;
 }
 
 .my_add {
-/*    color:#030b2e;*/
+/*   color:#030b2e;*/
 /*    color:#bbbfc5;*/
+/*    color:#777;*/
     color:#777;
     font-family: 'Poiret One', cursive;
-    text-transform: lowercase;
+    border: none;
+        background: #fff;
+        background: rgba(255,255,255,0.9);
+    }
+/*    text-transform: lowercase;*/
 }
 
 p {
