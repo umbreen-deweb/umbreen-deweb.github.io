@@ -36,33 +36,40 @@ section {
 }
 
 .bg-2 {
-	background: url(../img/ocean-new-pic-1.png) no-repeat top center fixed;
+	background: url(../img/art_images/pangea2.JPG) no-repeat top center fixed;
     color:#fff;
     background-size:cover;
     height: 400px;
 /*    opacity: .;*/
 }
 
-.bg-2 p {
+.quote {
 /*    font-family: 'Muli', sans-serif;*/
     font-family: 'Special Elite', cursive;
      font-size: 21px;
 /*    color: #DBA901;  */
     color:black;
-    padding:1% 0;
+    padding:1% 4%;
     letter-spacing: 2px;
     
 }
 
 .bg-3 {
 	background-color: white;
-    color:black;
-    background-image: url(../img/ocean-new-pic-1.png);
-    background-size: cover;
-    margin-top:-5%;
+    color:white;
+    background-image: url(../img/three-art.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    margin-top:5%;
     
 }
 
+.contact_me {
+    color:white;
+    margin-top: 6%;
+}
 
 
 
@@ -95,8 +102,8 @@ section {
 
 body {
     
-    background-color: black;
-/*    background-color: #f1f5f8;*/
+    background-color: #343635;
+
 }
 
 
@@ -106,12 +113,11 @@ body {
     background-color:white;
     text-align: center;
     padding-top: 10%;
-    background-color: #f1f5f8;
+    
    
 }
 
 h1 {
-/*     font-family: 'Quicksand', sans-serif;*/
     color: #1c4c55;
       font-family: 'Josefin Sans', sans-serif;
 }
@@ -163,34 +169,15 @@ h3 {
 
 
 p {
-/*    font-family: 'Muli', sans-serif;*/
-/*    font-family: 'Special Elite', cursive;*/
+
     font-family: 'Josefin Sans', sans-serif;
      font-size: 25px;
-/*    color: #DBA901;  */
       color:#a1c7bf;
-/*    color:#3a6d77;*/
     padding:2%;
     line-height: 2;
     letter-spacing: 2px;
    
 }
-/*
-h2 {
-    font: normal 28px 'Rochester', cursive;
-    text-align: center;
-    padding: 15px;
-    background-color: #3a3a3b;
-    box-shadow: 0 1px 2px #888;
-    border: 1px solid #333;
-    position: absolute;
-    top: 0;
-    left: 10%;
-    width: 94%;
-    margin-left: -80px;
-    color: #fff;
-}
-*/
 
 
 
@@ -215,8 +202,6 @@ h6 {
     padding: 2% 3% 3% 5%;
     color:#DBA901;
      font-family: 'Muli', sans-serif;
-/*     font-family: 'Montserrat', sans-serif;*/
-/*    font-family: 'Jura', sans-serif;*/
     font-weight: 400;
     font-size: 11px;
     letter-spacing: 2px;
@@ -235,10 +220,7 @@ h6 {
     padding:12% 0 0 0;
     text-align: center;
     font-family: 'Special Elite', cursive;
-/*     font-family: 'Muli', sans-serif;*/
-/*     font-family: 'Jura', sans-serif;*/
     font-weight: 400;
-/*    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;*/
     font-size: 18px;
     color: white;
     text-decoration:none;
@@ -246,26 +228,25 @@ h6 {
 }
 
 .footer_lead {
-    color:black;
+    color:white;
      font-family: 'Josefin Sans', sans-serif;
     font-size: 25px;
     font-weight: 700;
 }
 
+
 .web{
     width: 100%;
-    height: 130px;
+    height: 200px;
     margin: 10px;
     float: left;
     border: 10px solid  #a1c7bf;
     overflow: hidden;
     position: relative;
     text-align: center;
-/*
     -webkit-box-shadow: 1px 1px 2px  #A4A4A4;
     -moz-box-shadow: 1px 1px 2px  #A4A4A4;
     box-shadow: 1px 1px 2px  #a1c7bf;
-*/
     cursor: default;
     background: #a1c7bf;
     
@@ -275,9 +256,10 @@ h6 {
 
 }
 
+
 .art {
     width: 100%;
-    height: 130px;
+    height: 200px;
     margin: 10px;
     float: left;
     border: 10px solid #E6E6E6;
@@ -303,7 +285,7 @@ h6 {
 
 .estate {
     width: 100%;
-    height: 130px;
+    height: 200px;
     margin: 10px;
     float: left;
     border: 10px solid #610B38;
@@ -337,6 +319,4 @@ h6 {
 }
 
 
-.footer_lead {
-    color: black;
-}
+
