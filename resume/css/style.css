@@ -13,12 +13,12 @@
     background-size: cover;
 }
 
-@media (min-width: 768px) {
-  parallax {
-    min-height: 100%;
-  }
-    
-    @media (max-width: 768px) {
-  parallax {
-    min-height: 100%;
-  }
+@media only screen and (max-width: 1180px) {
+    parallax {
+        background-attachment: scroll;
+background-position: top;
+-webkit-background-size: auto;
+-moz-background-size: auto;
+background-size: auto;
+}
+}
