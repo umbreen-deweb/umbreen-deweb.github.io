@@ -7,12 +7,13 @@
     min-height: 400px;
 
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
+    background-attachment:scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+/*
 section.module.parallax {
   background-position: center;
   background-repeat: no-repeat;
@@ -23,4 +24,4 @@ section.module.parallax {
   background-size: 100% auto;
   max-width:100%;
 
-}
+}*/
