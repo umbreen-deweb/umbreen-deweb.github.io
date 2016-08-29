@@ -1,0 +1,42 @@
+body {
+    background-image: url(../img/home_img_agency.png);
+    opacity: rgba (0,0,0, .5);
+   background-repeat: no-repeat;
+    background-size: contain;
+    
+   
+}
+
+navbar-brand page-scroll {
+    font-size: 40px;
+}
+
+.my_nav {
+    background-color:#585858;
+}
+
+.big_button {
+    background-color:#585858;
+}
+
+img {
+    border-radius: 5%;
+}
+
+h2 {
+    color:#585858;
+}
+
+
+
+.navbar-default .navbar-brand {
+    font-family: sans-serif;
+    font-weight: 900;
+    letter-spacing: 3px;
+    font-size: 40px;
+    color:white;
+}
+
+.btn-xl {
+    background-color: #585858;
+}

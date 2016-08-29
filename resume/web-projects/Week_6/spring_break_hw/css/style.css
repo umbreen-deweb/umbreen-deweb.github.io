@@ -1,0 +1,314 @@
+/*Parallax for my cake site*/
+
+/* navbar */
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    margin-bottom: 0px;
+    width: 100%;
+    border-radius: 0px;
+    z-index: 10007;
+}
+
+.content-block-one {
+  padding: 30px;
+  margin-bottom: 0px;
+  color: inherit;
+  background-color: #eee;
+}
+.content-block-one h1,
+.content-block-one .h1 {
+  color: inherit;
+}
+.content-block-one p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.content-block-one > hr {
+  border-top-color: #d5d5d5;
+}
+.container .content-block-one {
+  border-radius: 6px;
+}
+.content-block-one .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .content-block-one {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .content-block-one {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .content-block-one h1,
+  .content-block-one .h1 {
+    font-size: 43px;
+  }
+}
+.bg {
+  background: url('/assets/example/bg_blueplane.jpg') no-repeat center center;
+  position: fixed;
+  width:100%;
+	height: 100%;
+background-size: 100% 100%;
+
+  top:0;
+  left:0;
+  z-index: -1;
+}
+
+.jumbotron {
+  height: 100vh;
+  color: white;
+  text-shadow: #444 0 1px 1px;
+  background:transparent;
+}
+
+.content-space-start {
+  padding: 0px;
+  margin-bottom: 0px;
+  color: inherit;
+  background: url(http://placehold.it/1200x650/0033cc/ffffff) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.content-space-one {
+  padding: 0px;
+  margin-bottom: 0px;
+  color: inherit;
+  background: url(http://placehold.it/1200x650/0033cc/ffffff) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.content-space-two {
+  padding: 0px;
+  margin-bottom: 0px;
+  color: inherit;
+  background: url(http://placehold.it/1200x650/cc0000/ffffff) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.page-break {
+    width: 50%;
+    height: 3px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+/*END OF PARALLAX STUFF*/
+
+
+.top_bar {
+   height: inherit;
+    background-color: black;  
+    
+}
+
+
+.header_img {
+    width: 20%;
+    height: auto;
+}
+
+/*NAV SECTION */
+
+.navbar-default .navbar-nav { 
+    color:white;
+    
+
+}
+
+.second_box {
+    margin-top: 5%;
+}
+
+
+/* BOX TWO (Right after NAV) */
+
+#carousel-example-generic {
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.carousel-inner > .item > img {
+   width: 100%;
+}
+
+.side_text {
+    background-color: #F2F2F2;
+    table-layout: fixed;
+}
+
+h3 {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 200;
+    line-height: 2;
+    height: inherit;
+    text-align: center;
+   
+}
+
+/* TEST TO SEE IF MY DAMN IMAGES WILL STAY AS THEY SHOULD
+.carousel_box {  
+    height: 400px; 
+    overflow: hidden;
+}
+
+carousel_box img {
+    width: 100%;
+}
+*/
+
+img {
+    width: 100%;
+}
+
+
+
+/*THIRD BOX */
+.third_box {
+    margin-top:7%;
+    border-left-style: 1px outset black;
+   
+}
+
+iframe {
+    width: 95%;
+}
+.four_pics {
+    border-style: outset;
+    border-bottom-style: hidden;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    
+}
+
+a {
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding:35%;
+}
+
+a:hover {
+    font-size:20px;
+    text-decoration: none; 
+}
+
+.example {
+    background-color: lightcyan;
+    padding: 10px;
+    text-align: center;
+    display: none;
+}
+
+a:hover + .example {
+    display: block;
+}
+
+h6 {
+    color:cornsilk;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 800;
+    margin-top: -5%;
+    
+}
+
+.custom_order {
+    font-family: sans-serif;
+    padding: 3% 0;
+    text-align:left;
+}
+
+p {
+    text-align: center;
+    margin-top: 5%;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-weight: 200;
+    height: 150px;
+
+    
+}
+.sm_img {
+    width: 100%;
+    border-radius: 2%;
+}
+
+.sub_img {
+    padding:5%;
+    
+}
+
+/* FOOTER */
+.footer{
+    margin-top: 5%;
+    color:black;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.footer_img {
+    width: 200px;
+    max-height: 100px;
+}
+
+ @media only screen and (min-width: 768px) and (max-width: 767px) { 
+     
+     .sm_img {
+         width:45%;
+     }
+     
+     .carousel_pic {
+         width;100%;
+     }
+}
+
+/* PARALAX STYLING*/
+
+.content-space-one {
+    background-image: url(../img/para_img_1.jpg);
+    
+}
+
+.content-space-two {
+    background-image: url(../img/para_img_chefs_2.jpg);
+}
+
+.content-block-one {
+    background-color: #E6E6E6;
+    
+}
+
+
+.jumbotron {
+    background-image:url(../img/para_img_1.jpg);
+    background-size: cover;
+    background-repeat:
+}
+
+.lead {
+    color:black;
+}
+
+

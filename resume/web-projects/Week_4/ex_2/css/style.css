@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Bell;
+    src: url("fonts/BELL.TFF");
+}
+
+h1 {
+    font-family: 'Courgette', cursive;
+    font-weight:700;
+    color:red;
+}
+
+p {
+    font-family: Bell;
+}
