@@ -13,3 +13,6 @@
     background-size: cover;
 }
 
+ul, menu, dir {
+    list-style: none;
+}
