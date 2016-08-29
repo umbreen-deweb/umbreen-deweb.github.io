@@ -4,7 +4,7 @@
 /*     background-image: url("../img/portfolio/thumbnails/pangea-part.jpg");*/
 
     /* Set a specific height */
-    min-height: 400px;
+    min-height: 500px;
 
     /* Create the parallax scrolling effect */
     background-attachment:scroll;
@@ -13,15 +13,3 @@
     background-size: cover;
 }
 
-/*
-section.module.parallax {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  -o-background-size: 100% auto;
-  background-size: 100% auto;
-  max-width:100%;
-
-}*/
