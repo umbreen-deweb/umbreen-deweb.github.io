@@ -4,7 +4,7 @@
 /*     background-image: url("../img/portfolio/thumbnails/pangea-part.jpg");*/
 
     /* Set a specific height */
-    min-height: 500px;
+    min-height: 400px;
 
     /* Create the parallax scrolling effect */
     background-attachment:scroll;
@@ -30,4 +30,8 @@ ul, menu, dir {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.text-faded {
+    font-size: 19px;
 }
