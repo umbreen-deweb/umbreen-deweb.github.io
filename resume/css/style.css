@@ -39,13 +39,9 @@ ul, menu, dir {
 }
 
 #box img {
-    width: 200px;
-    height: 200px;
-    border-radius:50%;
-    padding: 20%;
-    margin: 3%;
-    float:left;
-    align-content: center;
+    width: 150px;
+    height: 140px;
+    border-radius: 50%;
 }
 
 #box div {
@@ -72,5 +68,5 @@ ul, menu, dir {
 }
 
 .space {
-    height: 200px;
+    height: 250px;
 }
