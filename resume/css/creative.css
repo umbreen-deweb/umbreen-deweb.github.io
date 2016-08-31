@@ -16,11 +16,11 @@ body {
 hr {
 /*  border-color: #F05F40;*/
      border-color: #f9c44d;
-  border-width: 3px;
-  max-width: 50px;
+     border-width: 3px;
+     max-width: 50px;
 }
 hr.light {
-  border-color: black;
+  border-color: white;
 }
 a {
   -webkit-transition: all 0.35s;
