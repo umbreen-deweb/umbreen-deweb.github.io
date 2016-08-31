@@ -1,3 +1,5 @@
+
+
 .parallax {
     /* The image used */
     background-image: url("../img/Fearless-1.jpg");
@@ -36,3 +38,39 @@ ul, menu, dir {
     font-size: 19px;
 }
 
+#box img {
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+    padding: 20%;
+    margin: 3%;
+    float:left;
+    align-content: center;
+}
+
+#box div {
+    float:left;
+    width:20%;
+    text-align: center;
+    padding: 2%;
+    display: inline-block;
+    align-content: center;
+}
+
+#box {
+    width:98%;
+
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.space {
+    height: 200px;
+}
