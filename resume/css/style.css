@@ -58,6 +58,13 @@ ul, menu, dir {
 
 }
 
+#box a:hover {
+              font-size: 100%;
+              color:darkslategrey;
+              font-family: sans-serif;
+          }
+
+
 .clearfix:after {
     clear: both;
     content: ".";

@@ -151,6 +151,13 @@ h3 {
     display: inline-block;
 }
 
+@media only screen and (max-width: 768px) {
+    #bigbox4 div {
+        width:100%;
+        align-content: center;
+    }
+    }
+  
 #bigbox4 p {
     font-size: 12px;
     font-family: sans-serif;
@@ -170,6 +177,12 @@ h3 {
     font-size: 12px;
     padding: 3%;
 }
+
+@media only screen and (max-width: 768px) {
+    #box5 div {
+        width: 100%;
+    }
+    }
 #box5 img {
     width:320px;
     height: 200px;
