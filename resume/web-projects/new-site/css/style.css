@@ -1,0 +1,126 @@
+body {
+    margin:auto;
+}
+
+
+
+
+
+
+/*header stuff*/
+header {
+    background-color:#032f42;
+    padding:1em;
+    
+}
+
+h1 {
+    text-align: center;
+    color: #d1265e;
+    font-family: 'Muli', sans-serif;
+    font-size: 4em;
+}
+
+
+
+
+
+/*NAV STUFF*/
+nav li {
+    display: inline-block;
+    color: #d1265e;
+    align-content: center;
+    
+}
+
+
+a {
+    text-decoration: none;
+    color: #d1265e;
+    font-size: .75em;
+    font-family:sans-serif; 
+    margin-left: 4em;
+    padding: 2em;
+    
+}
+
+a:hover {
+    color:#FFBF00;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+/*second part with image*/
+
+img {
+   width: 100%;
+}
+
+
+
+
+
+/*footer stuff*/
+
+article {
+    margin-left: 4.5em;
+}
+
+h5 {
+    color: #d1265e;
+    font-family: 'Muli', sans-serif;
+}
+
+.footer-box-one { 
+    width: 35%;
+    display:inline-block;
+    float:left;
+    font-family: 'Muli', sans-serif;
+    font-size: 12px;
+}
+
+
+.footer-box-two { 
+    width: 27%;
+    display:inline-block;
+    float:left;
+    font-family: 'Muli', sans-serif;
+    font-size: 12px;
+    margin-left: 2.5em;
+
+}
+
+.footer-box-three { 
+    width: 25%;
+    display:inline-block;
+    float:left;
+    font-family: 'Muli', sans-serif;
+    font-size: 12px;
+
+}
+
+
+footer {
+    font-family: 'Muli', sans-serif;
+    font-size: 12px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 1.5em;
+    color: #d1265e;
+    background-color:#032f42;
+    
+}
