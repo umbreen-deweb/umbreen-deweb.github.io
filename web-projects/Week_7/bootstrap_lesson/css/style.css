@@ -1,0 +1,21 @@
+/*header style*/
+.my_logo {
+    width:200px;
+    
+}
+
+.my_header {
+    background-color: bisque;
+}
+
+/*carousel*/
+
+#carousel-example-generic {
+    max-height: 425px;
+    overflow: hidden;
+}
+
+.carousel-caption {
+    top:0;
+    
+}

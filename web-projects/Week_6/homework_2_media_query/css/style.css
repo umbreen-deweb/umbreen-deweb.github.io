@@ -1,0 +1,135 @@
+main {
+    width:100%;
+    background-color: #2bcdc0;
+}
+
+h1 {
+    padding-top: 15%;
+    padding-bottom: 15%;
+    text-align: center;
+    color:white;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+/*second box Black*/
+
+article {
+    width:100%;
+    background-color: black;
+}
+h2 {
+    padding-top: 15%;
+    padding-bottom: 15%;
+    text-align: center;
+    color:white;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+/*last box with smaller dives*/
+
+.last_box {
+    width:100%;
+    float:left;
+    background-color: #33a8dd;
+    color:white;
+}
+
+.box {
+    width: 45%;
+    float:left;
+    text-align: center;
+    padding: 6% 2.5%;
+}
+
+.box1 {
+    width:50%;
+    float:left;
+}
+
+.box2 {
+    width:50%;
+    float:left;
+}
+
+.blackbox {
+    width:90%;
+    float:left;
+    height:30px;
+    background-color: black;
+    margin: 2%;
+
+}
+
+.orangebox {
+    width:90%;
+    float:left;
+    height:30px;
+    background-color: #f46731;
+    margin: 2%;
+
+    
+}
+
+.tealbox {
+    width:90%;
+    float:left;
+    height:30px;
+    background-color:#2bcdc0;
+    margin: 2%;
+
+    
+}
+
+.whitebox {
+     width:90%;
+    float:left;
+    height:30px;
+    background-color:white;
+    margin: 2%;
+}
+
+.box p {
+    padding-top: 8%;
+    float:left;
+    text-align: center;
+    font-size: 13px;
+    font-family: sans-serif;
+    line-height: 1.5em;
+    padding-bottom: 10%;
+    
+}
+
+.box h3 {
+    margin-top:30%;
+    font-size: 35px;
+    
+}
+
+/* media query it up*/
+/* PHONE VIEW */
+@media only screen and (max-width:700px) {
+    main {
+        width:50%;
+        float:left;
+    }
+    
+    article {
+        width:50%;
+        float:left;
+    }
+    
+    .lastbox {
+        width:50%;
+    }
+    
+    .box1 { width: 100%;
+        float:left;
+    }
+    
+    .box2 {
+        width:100%;
+        
+    }
+}
