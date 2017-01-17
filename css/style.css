@@ -22,7 +22,7 @@ ul, menu, dir {
 .parallax1 {
     /* The image used */
     background-image: url("../img/Fearless-1.jpg");
-/*     background-image: url("../img/portfolio/thumbnails/pangea-part.jpg");*/
+
 
     /* Set a specific height */
     min-height: 200px;
