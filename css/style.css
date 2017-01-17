@@ -2,7 +2,8 @@
 
 .parallax {
     /* The image used */
-    background-image: url("../img/fearless-1.jpg");
+/*    background-image: url("../img/fearless-1.jpg");*/
+   
 /*     background-image: url("../img/portfolio/thumbnails/pangea-part.jpg");*/
 
     /* Set a specific height */
@@ -35,7 +36,7 @@ ul, menu, dir {
 }
 
 .text-faded {
-    font-size: 19px;
+    font-size: 22px;
 }
 
 #box img {
