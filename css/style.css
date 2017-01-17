@@ -1,0 +1,89 @@
+
+
+.parallax {
+    /* The image used */
+    background-image: url("../img/Fearless-1.jpg");
+/*     background-image: url("../img/portfolio/thumbnails/pangea-part.jpg");*/
+
+    /* Set a specific height */
+    min-height: 400px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment:scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul, menu, dir {
+    list-style: none;
+}
+
+.parallax1 {
+    /* The image used */
+    background-image: url("../img/Fearless-1.jpg");
+/*     background-image: url("../img/portfolio/thumbnails/pangea-part.jpg");*/
+
+    /* Set a specific height */
+    min-height: 200px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment:scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-faded {
+    font-size: 19px;
+}
+
+#box img {
+    width: 150px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+#box div {
+    float:left;
+    width:20%;
+    text-align: center;
+    padding: 2%;
+    display: inline-block;
+    align-content: center;
+}
+
+#box {
+    width:98%;
+
+}
+
+#box a:hover {
+              
+              color:darkslategrey;
+/*              font-family: sans-serif;*/
+          }
+
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.space {
+    height: 30px;
+}
+
+  /* For mobile phones: */
+
+@media only screen and (max-width: 768px) {
+    #box div {
+        width:50%;
+    }
+    }
+  
+    
